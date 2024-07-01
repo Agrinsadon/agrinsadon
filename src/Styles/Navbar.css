@@ -156,7 +156,7 @@
     .language-selector {
         padding: 1.5rem 3.7rem;
         position: absolute;
-        top: 40%;
+        top: 43%;
         right: 0;
     }
 
@@ -166,5 +166,9 @@
         top: 70%;
         right: 39%;
         z-index: 1001;
+    }
+
+    .no-scroll {
+        overflow: hidden;
     }
 }

@@ -1,6 +1,7 @@
 {
-  "me": "Minä",
-  "experience": "Kokemus",
-  "projects": "Projektit",
-  "certificates": "Todistukset"
+    "me": "Minusta",
+    "experience": "Kokemus",
+    "projects": "Projektit",
+    "certificates": "Sertifikaatit",
+    "title": "Ohjelmistotekniikan opiskelija"
 }

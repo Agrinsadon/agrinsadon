@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Link as ScrollLink, Events, animateScroll as scroll, scrollSpy } from 'react-scroll';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
@@ -6,34 +6,28 @@ import {
     faCoins,
     faPhoneFlip,
     faTimes,
-    faUsers,
-    faChevronDown
+    faUsers
 } from '@fortawesome/free-solid-svg-icons';
 import { faServicestack } from '@fortawesome/free-brands-svg-icons';
-import { hasFlag } from 'country-flag-icons';
 import '../Styles/Navbar.css';
-import enTranslations from '../Translation/ENG.json';
 import fiTranslations from '../Translation/FIN.json';
+import LanguageSwitcher from '../Translation/languageSwitcher';
 
-const getFlag = (countryCode) => {
-    if (hasFlag(countryCode)) {
-        return <img src={`https://purecatamphetamine.github.io/country-flag-icons/3x2/${countryCode}.svg`} alt={`${countryCode} flag`} className="language-flag" />;
-    }
-    return null;
-};
-
-const Navbar = () => {
+// eslint-disable-next-line react/prop-types
+const Navbar = ({ onTranslationsChange }) => {
     const [showLinks, setShowLinks] = useState(false);
     const [activeSection, setActiveSection] = useState('');
     const [screenWidth, setScreenWidth] = useState(window.innerWidth);
-    const [showLanguageDropdown, setShowLanguageDropdown] = useState(false);
     const [currentLanguage, setCurrentLanguage] = useState('FI');
     const [translations, setTranslations] = useState(fiTranslations);
-    const [languageArrowRotation, setLanguageArrowRotation] = useState(0);
 
     const toggleLinks = () => {
         setShowLinks(!showLinks);
-        setShowLanguageDropdown(false);
+        if (!showLinks) {
+            document.body.classList.add('no-scroll');
+        } else {
+            document.body.classList.remove('no-scroll');
+        }
     };
 
     const scrollToTop = () => {
@@ -43,29 +37,16 @@ const Navbar = () => {
         });
     };
 
-    const toggleLanguageDropdown = () => {
-        setShowLanguageDropdown(!showLanguageDropdown);
-        setLanguageArrowRotation(languageArrowRotation === 0 ? 180 : 0);
-    };
-
-    const switchLanguage = (language) => {
-        setCurrentLanguage(language);
-        setShowLanguageDropdown(false);
-        setLanguageArrowRotation(0);
-
-        // Load translations based on selected language
-        if (language === 'US') {
-            setTranslations(enTranslations);
-        } else if (language === 'FI') {
-            setTranslations(fiTranslations);
-        }
-    };
+    useEffect(() => {
+        onTranslationsChange(translations);
+    }, [translations, onTranslationsChange]);
 
     useEffect(() => {
         const handleResize = () => {
             setScreenWidth(window.innerWidth);
             if (window.innerWidth > 768) {
                 setShowLinks(false);
+                document.body.classList.remove('no-scroll');
             }
         };
 
@@ -151,27 +132,11 @@ const Navbar = () => {
                         <FontAwesomeIcon icon={faPhoneFlip} className="fa-icon"/>
                     </ScrollLink>
 
-                    <div className="language-selector">
-                        {getFlag(currentLanguage)}
-                        <FontAwesomeIcon
-                            className="arrowlanguage"
-                            icon={faChevronDown}
-                            style={{ transform: `rotate(${languageArrowRotation}deg)`, transition: 'transform 0.3s ease-in-out' }}
-                            onClick={toggleLanguageDropdown}
-                        />
-                        <div className={`language-dropdown ${showLanguageDropdown ? 'show' : ''}`}>
-                            {currentLanguage !== 'US' && (
-                                <div className="language-option" onClick={() => switchLanguage('US')}>
-                                    {getFlag('US')}
-                                </div>
-                            )}
-                            {currentLanguage !== 'FI' && (
-                                <div className="language-option" onClick={() => switchLanguage('FI')}>
-                                    {getFlag('FI')}
-                                </div>
-                            )}
-                        </div>
-                    </div>
+                    <LanguageSwitcher
+                        currentLanguage={currentLanguage}
+                        setCurrentLanguage={setCurrentLanguage}
+                        setTranslations={setTranslations}
+                    />
                 </div>
 
                 <FontAwesomeIcon
