@@ -1,8 +1,10 @@
 import { useState } from 'react';
+import { Element } from 'react-scroll';
 import Navbar from "../Components/Navbar.jsx";
 import '../Styles/Home.css';
 import fiTranslations from '../Translation/FIN.json';
 import { FaGithub, FaEnvelope, FaInstagram, FaFileAlt } from 'react-icons/fa';
+import About from "./About.jsx";
 
 const Home = () => {
     const [translations, setTranslations] = useState(fiTranslations);
@@ -30,6 +32,7 @@ const Home = () => {
                     </a>
                 </div>
             </div>
+            <Element name="about"> <About translations={translations} /> </Element>
         </div>
     );
 };

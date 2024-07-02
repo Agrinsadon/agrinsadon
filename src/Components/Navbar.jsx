@@ -30,6 +30,11 @@ const Navbar = ({ onTranslationsChange }) => {
         }
     };
 
+    const handleLinkClick = () => {
+        setShowLinks(false);
+        document.body.classList.remove('no-scroll');
+    };
+
     const scrollToTop = () => {
         scroll.scrollToTop({
             smooth: true,
@@ -80,11 +85,11 @@ const Navbar = ({ onTranslationsChange }) => {
                         to="about"
                         smooth={true}
                         duration={500}
-                        onClick={() => setShowLinks(false)}
+                        onClick={handleLinkClick}
                         className={activeSection === 'about' ? 'active' : ''}
                         spy={true}
                         onSetActive={handleSetActive}
-                        offset={screenWidth < 992 ? -130 : -150}
+                        offset={screenWidth < 992 ? -80 : -150}
                     >
                         {translations.me}
                         <FontAwesomeIcon icon={faServicestack} className="fa-icon"/>
@@ -94,7 +99,7 @@ const Navbar = ({ onTranslationsChange }) => {
                         to="experience"
                         smooth={true}
                         duration={500}
-                        onClick={() => setShowLinks(false)}
+                        onClick={handleLinkClick}
                         className={activeSection === 'experience' ? 'active' : ''}
                         spy={true}
                         onSetActive={handleSetActive}
@@ -108,7 +113,7 @@ const Navbar = ({ onTranslationsChange }) => {
                         to="projects"
                         smooth={true}
                         duration={500}
-                        onClick={() => setShowLinks(false)}
+                        onClick={handleLinkClick}
                         className={activeSection === 'projects' ? 'active' : ''}
                         spy={true}
                         onSetActive={handleSetActive}
@@ -122,7 +127,7 @@ const Navbar = ({ onTranslationsChange }) => {
                         to="certificates"
                         smooth={true}
                         duration={500}
-                        onClick={() => setShowLinks(false)}
+                        onClick={handleLinkClick}
                         className={activeSection === 'certificates' ? 'active' : ''}
                         spy={true}
                         onSetActive={handleSetActive}

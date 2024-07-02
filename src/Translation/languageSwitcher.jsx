@@ -13,6 +13,7 @@ const getFlag = (countryCode) => {
     return null;
 };
 
+// eslint-disable-next-line react/prop-types
 const LanguageSwitcher = ({ currentLanguage, setCurrentLanguage, setTranslations }) => {
     const [showLanguageDropdown, setShowLanguageDropdown] = useState(false);
     const [languageArrowRotation, setLanguageArrowRotation] = useState(0);

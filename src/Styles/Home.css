@@ -1,7 +1,7 @@
 .home-intro {
     height: auto;
     width: auto;
-    margin: 20rem auto;
+    margin: 21rem auto;
     justify-content: center;
     text-align: center;
 }
@@ -29,7 +29,7 @@
 }
 
 .icon {
-    color: white;
+    color: #f5f5dc;
     font-size: 24px;
     transition: color 0.3s ease;
 }
@@ -59,6 +59,11 @@
         margin-left: 3rem;
         margin-right: 3rem;
         font-size: 1.5em;
+    }
+
+    .icon {
+        font-size: 21px;
+        transition: color 0.3s ease;
     }
 }
 
