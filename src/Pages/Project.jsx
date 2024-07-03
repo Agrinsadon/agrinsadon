@@ -1,9 +1,14 @@
+// eslint-disable-next-line no-unused-vars
+import React from "react";
+import '../Styles/Project.css';
 
 
-const Project = () => {
+
+// eslint-disable-next-line react/prop-types
+const Project = ({ translations }) => {
     return (
         <div>
-            <h1>Project</h1>
+            <h3 className="project-header">{translations.projectHeader}</h3>
         </div>
     );
 };

@@ -2,9 +2,13 @@
     "me": "About Me",
     "experience": "Experience",
     "projects": "Projects",
-    "certificates": "Certificates",
+    "education": "Education",
     "title": "Software Engineer Student",
     "aboutHeader": "01. About Me",
     "aboutTitle": "Hello, I'm Agrin!",
-    "aboutDescription": "I am a dedicated student aspiring to build a career as a software engineering professional. I am eager to take on challenging tasks and seek opportunities to develop my skills both in my field and in other areas. I take great pride in my strong work ethic, which is reflected in my commitment to producing high-quality work. I am a calm problem solver by nature and strongly believe that the best solutions arise from collaboration and open communication."
+    "aboutDescription": "I am a dedicated student aspiring to build a career as a software engineering professional. I am eager to take on challenging tasks and seek opportunities to develop my skills both in my field and in other areas. I take great pride in my strong work ethic, which is reflected in my commitment to producing high-quality work. I am a calm problem solver by nature and strongly believe that the best solutions arise from collaboration and open communication.",
+    "experienceHeader": "02. Experience",
+    "experienceTitle": "My Work Experience",
+    "projectHeader": "03. Projects",
+    "educationHeader": "04. Education"
 }

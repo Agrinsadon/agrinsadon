@@ -1,7 +1,8 @@
-// About.jsx
+// eslint-disable-next-line no-unused-vars
 import React from 'react';
 import '../Styles/About.css';
 
+// eslint-disable-next-line react/prop-types
 const About = ({ translations }) => {
     return (
         <div>

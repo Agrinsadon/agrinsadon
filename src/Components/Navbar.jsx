@@ -2,10 +2,10 @@ import { useState, useEffect } from 'react';
 import { Link as ScrollLink, Events, animateScroll as scroll, scrollSpy } from 'react-scroll';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
-    faBarsStaggered,
-    faCoins,
+    faBarsStaggered, faClipboardList,
+    faCoins, faLaptopCode,
     faPhoneFlip,
-    faTimes,
+    faTimes, faUser, faUserGraduate,
     faUsers
 } from '@fortawesome/free-solid-svg-icons';
 import { faServicestack } from '@fortawesome/free-brands-svg-icons';
@@ -89,10 +89,10 @@ const Navbar = ({ onTranslationsChange }) => {
                         className={activeSection === 'about' ? 'active' : ''}
                         spy={true}
                         onSetActive={handleSetActive}
-                        offset={screenWidth < 992 ? -80 : -150}
+                        offset={screenWidth < 992 ? -80 : -50}
                     >
                         {translations.me}
-                        <FontAwesomeIcon icon={faServicestack} className="fa-icon"/>
+                        <FontAwesomeIcon icon={faUser} className="fa-icon"/>
                     </ScrollLink>
 
                     <ScrollLink
@@ -106,7 +106,7 @@ const Navbar = ({ onTranslationsChange }) => {
                         offset={screenWidth < 768 ? -100 : -240}
                     >
                         {translations.experience}
-                        <FontAwesomeIcon icon={faCoins} className="fa-icon"/>
+                        <FontAwesomeIcon icon={faClipboardList} className="fa-icon"/>
                     </ScrollLink>
 
                     <ScrollLink
@@ -120,21 +120,21 @@ const Navbar = ({ onTranslationsChange }) => {
                         offset={screenWidth < 768 ? -110 : -134}
                     >
                         {translations.projects}
-                        <FontAwesomeIcon icon={faUsers} className="fa-icon"/>
+                        <FontAwesomeIcon icon={faLaptopCode} className="fa-icon"/>
                     </ScrollLink>
 
                     <ScrollLink
-                        to="certificates"
+                        to="education"
                         smooth={true}
                         duration={500}
                         onClick={handleLinkClick}
-                        className={activeSection === 'certificates' ? 'active' : ''}
+                        className={activeSection === 'education' ? 'active' : ''}
                         spy={true}
                         onSetActive={handleSetActive}
                         offset={screenWidth < 768 ? -110 : -160}
                     >
-                        {translations.certificates}
-                        <FontAwesomeIcon icon={faPhoneFlip} className="fa-icon"/>
+                        {translations.education}
+                        <FontAwesomeIcon icon={faUserGraduate} className="fa-icon"/>
                     </ScrollLink>
 
                     <LanguageSwitcher

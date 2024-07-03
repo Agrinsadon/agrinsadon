@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Playfair Display1';
+    src: url('../Fonts/PlayfairDisplay-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .about-container {
     display: flex;
     align-items: center;
@@ -38,6 +45,7 @@
 
 .about-description {
     font-size: 16px;
+    font-family: "Playfair Display1", sans-serif;
 }
 
 @media screen and (max-width: 992px) {
