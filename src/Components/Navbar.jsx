@@ -103,7 +103,7 @@ const Navbar = ({ onTranslationsChange }) => {
                         className={activeSection === 'experience' ? 'active' : ''}
                         spy={true}
                         onSetActive={handleSetActive}
-                        offset={screenWidth < 768 ? -100 : -240}
+                        offset={screenWidth < 768 ? -80 : -50}
                     >
                         {translations.experience}
                         <FontAwesomeIcon icon={faClipboardList} className="fa-icon"/>

@@ -6,9 +6,41 @@
     "title": "Software Engineer Student",
     "aboutHeader": "01. About Me",
     "aboutTitle": "Hello, I'm Agrin!",
-    "aboutDescription": "I am a dedicated student aspiring to build a career as a software engineering professional. I am eager to take on challenging tasks and seek opportunities to develop my skills both in my field and in other areas. I take great pride in my strong work ethic, which is reflected in my commitment to producing high-quality work. I am a calm problem solver by nature and strongly believe that the best solutions arise from collaboration and open communication.",
+    "aboutDescription": "I am a dedicated student aspiring to build a career as a software engineering. I am eager to take on challenging tasks and seek opportunities to develop my skills both in my field and in other areas. I take great pride in my strong work ethic, which is reflected in my commitment to producing high-quality work. I am a calm problem solver by nature and strongly believe that the best solutions arise from collaboration and open communication.",
     "experienceHeader": "02. Experience",
     "experienceTitle": "My Work Experience",
+    "experienceBoxes": [
+        {
+            "date": "2019 - 2022",
+            "title": "Processing Operator",
+            "company": "Murata Electronics Oy",
+            "text": "I was responsible for inspecting and repairing electronic components. Workdays lasted 12 hours and I needed to stay alert and focused to ensure that the final products were flawless and of high quality."
+        },
+        {
+            "date": "2021 - 2022",
+            "title": "Assistant ( PCR )",
+            "company": "Terveystalo",
+            "text": "As a COVID-19 testing assistant, I conducted daily tests for 100-200 people. I was responsible for sample handling, participating in the entire testing process, and supporting public health initiatives."
+        },
+        {
+            "date": "2021 - 2022",
+            "title": "Receptionist",
+            "company": "Espoon Kaupunki",
+            "text": "I assisted approximately 200-400 people daily in performing COVID-19 vaccinations. My duties included assisting customers, ensuring their well-being, and making sure they felt comfortable and safe."
+        },
+        {
+            "date": "2019",
+            "title": "Warehouse Worker",
+            "company": "Kesko Oyj",
+            "text": "My duties included picking frozen goods according to customer orders, ensuring accuracy and timely delivery. I also maintained order in the department and correctly placed products in the warehouse."
+        },
+        {
+            "date": "2018",
+            "title": "Mailing and Enveloping",
+            "company": "PostNord Oy",
+            "text": "My tasks included sorting letters and packages, opening and sealing envelopes, and preparing mail for shipment."
+        }
+    ],
     "projectHeader": "03. Projects",
     "educationHeader": "04. Education"
 }
