@@ -6,7 +6,7 @@ import '../Styles/Experience.css';
 // eslint-disable-next-line react/prop-types
 const Experience = ({ translations }) => {
     return (
-        <div>
+        <div className="Experience">
             {/* eslint-disable-next-line react/prop-types */}
             <h3 className="experience-header">{translations.experienceHeader}</h3>
             {/* eslint-disable-next-line react/prop-types */}

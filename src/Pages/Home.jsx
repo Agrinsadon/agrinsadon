@@ -13,10 +13,10 @@ const Home = () => {
     const [translations, setTranslations] = useState(fiTranslations);
 
     return (
-        <div>
+        <>
             <Navbar onTranslationsChange={setTranslations} />
 
-            <div className="home-intro">
+            <div className="LandingPage">
                 <h1>Agrin Sadon</h1>
                 <hr />
                 <h2>{translations.title}</h2>
@@ -39,7 +39,7 @@ const Home = () => {
             <Element name="experience"> <Experience translations={translations} /> </Element>
             <Element name="projects"> <Project translations={translations} /> </Element>
             <Element name="education"> <Education translations={translations} /> </Element>
-        </div>
+        </>
     );
 };
 

@@ -8,6 +8,7 @@ import '../Styles/Education.css';
 const Education = ({ translations }) => {
     return (
         <div>
+            {/* eslint-disable-next-line react/prop-types */}
             <h3 className="education-header">{translations.educationHeader}</h3>
         </div>
     );

@@ -1,15 +1,20 @@
+// eslint-disable-next-line no-unused-vars
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
 import '../Styles/Project.css';
 
+// eslint-disable-next-line react/prop-types
 const Project = ({ translations }) => {
     return (
-        <div>
+        <div className="Projects">
+            {/* eslint-disable-next-line react/prop-types */}
             <h3 className="project-header">{translations.projectHeader}</h3>
+            {/* eslint-disable-next-line react/prop-types */}
             <h1 className="project-title">{translations.projectTitle}</h1>
             <div className="project-cards-container">
+                {/* eslint-disable-next-line react/prop-types */}
                 {translations.projectsCards.map((project, index) => (
                     <div key={index} className="project-card">
                         <h3 className="project-name">{project.name}</h3>
