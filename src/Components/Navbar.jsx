@@ -1,14 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Link as ScrollLink, Events, animateScroll as scroll, scrollSpy } from 'react-scroll';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {
-    faBarsStaggered, faClipboardList,
-    faCoins, faLaptopCode,
-    faPhoneFlip,
-    faTimes, faUser, faUserGraduate,
-    faUsers
-} from '@fortawesome/free-solid-svg-icons';
-import { faServicestack } from '@fortawesome/free-brands-svg-icons';
+import { faBarsStaggered, faClipboardList, faLaptopCode, faTimes, faUser, faUserGraduate,} from '@fortawesome/free-solid-svg-icons';
 import '../Styles/Navbar.css';
 import fiTranslations from '../Translation/FIN.json';
 import LanguageSwitcher from '../Translation/languageSwitcher';
@@ -89,7 +82,7 @@ const Navbar = ({ onTranslationsChange }) => {
                         className={activeSection === 'about' ? 'active' : ''}
                         spy={true}
                         onSetActive={handleSetActive}
-                        offset={screenWidth < 992 ? -80 : -50}
+                        offset={screenWidth < 992 ? -80 : -45}
                     >
                         {translations.me}
                         <FontAwesomeIcon icon={faUser} className="fa-icon"/>
@@ -117,7 +110,7 @@ const Navbar = ({ onTranslationsChange }) => {
                         className={activeSection === 'projects' ? 'active' : ''}
                         spy={true}
                         onSetActive={handleSetActive}
-                        offset={screenWidth < 768 ? -110 : -134}
+                        offset={screenWidth < 768 ? -80 : -50}
                     >
                         {translations.projects}
                         <FontAwesomeIcon icon={faLaptopCode} className="fa-icon"/>

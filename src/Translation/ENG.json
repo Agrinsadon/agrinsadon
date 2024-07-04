@@ -42,5 +42,42 @@
         }
     ],
     "projectHeader": "03. Projects",
-    "educationHeader": "04. Education"
+    "projectTitle": "Recent Projects",
+    "projectsCards": [
+        {
+            "name": "EcoPlug",
+            "description": "Ecoplug is a mobile app that helps users find available electric vehicle charging spots in Uusimaa. Built with React Native, CSS, Node.js, MySQL, Docker and Jenkins is used for continuous integration and testing.",
+            "links": [
+                { "href": "https://github.com/MuathOthman/EcoPlugMobileApp", "icon": "faGithub" },
+                { "href": "https://youtu.be/bBMAk98vEuk?si=IXvr0nPgAYl10m2b", "icon": "faYoutube" }
+            ]
+        },
+        {
+            "name": "Sähkö Dominus",
+            "description": "Sähkö Dominus is a website made for a client offering professional electronic installation and repair services. Build with React, Node.js with Express and CSS.",
+            "links": [
+                { "href": "https://github.com/Agrinsadon/sahko-dominus", "icon": "faGithub" },
+                { "href": "https://www.sahkodominus.com/", "icon": "faExternalLinkAlt" }
+            ]
+        },
+        {
+            "name": "Renteez",
+            "description": "Renteez is a platform where you can publish or rent apartments in Helsinki. It is mainly made for students who are looking for apartments. Built with React, Node.js with Express, MongoDB, and CSS.",
+            "links": [
+                { "href": "https://github.com/theomi/renteez", "icon": "faGithub" },
+                { "href": "https://renteez.onrender.com/", "icon": "faExternalLinkAlt" }
+            ]
+        },
+        {
+            "name": "Tuutorikeskus",
+            "description": "Tuutorikeskus is a website made for client that provides guidance and support to help students prepare for their medical entrance exams in Romania. Built with React, Node.js with Express and CSS.",
+            "links": [
+                { "href": "https://github.com/Agrinsadon/Tuutorikeskus", "icon": "faGithub" },
+                { "href": "https://www.tuutorikeskus.com/", "icon": "faExternalLinkAlt" }
+            ]
+        }
+    ],
+
+
+"educationHeader": "04. Education"
 }

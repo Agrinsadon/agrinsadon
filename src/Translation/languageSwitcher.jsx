@@ -18,14 +18,12 @@ const getFlag = (countryCode) => {
     return null;
 };
 
-// eslint-disable-next-line react/display-name,react/prop-types
 const LanguageOption = React.memo(({ countryCode, onClick }) => (
     <div className="language-option" onClick={onClick}>
         {getFlag(countryCode)}
     </div>
 ));
 
-// eslint-disable-next-line react/prop-types
 const LanguageSwitcher = ({ currentLanguage, setCurrentLanguage, setTranslations }) => {
     const [showLanguageDropdown, setShowLanguageDropdown] = useState(false);
     const [languageArrowRotation, setLanguageArrowRotation] = useState(0);
