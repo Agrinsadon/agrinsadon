@@ -6,17 +6,17 @@
     text-align: center;
 }
 
-.home-intro h1 {
+.LandingPage h1 {
     font-size: 5rem;
     margin: 0;
 }
 
-.home-intro hr {
+.LandingPage hr {
     width: 55%;
     margin: 0 auto;
 }
 
-.home-intro h2 {
+.LandingPage h2 {
     margin-top: 1rem;
     font-size: 2em;
 }
@@ -40,21 +40,21 @@
 
 
 @media screen and (max-width: 992px) {
-    .home-intro {
+    .LandingPage {
         padding-top: 16rem;
         margin: auto auto;
     }
 
-    .home-intro h1 {
+    .LandingPage h1 {
         font-size: 2.5rem;
     }
 
-    .home-intro hr {
+    .LandingPage hr {
         width: 80%;
         margin: 0 auto;
     }
 
-    .home-intro h2 {
+    .LandingPage h2 {
         margin-top: 1rem;
         margin-left: 3rem;
         margin-right: 3rem;
