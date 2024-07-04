@@ -141,6 +141,7 @@
     }
 
     .burger {
+        font-size: 23px;
         display: block;
         margin-right: 2rem;
         transition: transform 0.3s ease-in-out;
@@ -151,7 +152,7 @@
     }
 
     .logo {
-        font-size: 1.2rem;
+        font-size: 20px;
         left: 2rem;
         position: relative;
     }
@@ -159,16 +160,15 @@
     .language-selector {
         padding: 1.5rem 3.7rem;
         position: absolute;
-        top: 43%;
+        top: 44%;
         right: 0;
     }
 
     .language-selector .language-dropdown {
         display: none;
         position: absolute;
-        top: 70%;
-        right: 38%;
-        z-index: 1001;
+        top: 75%;
+        right: 39%;
     }
 
     .no-scroll {

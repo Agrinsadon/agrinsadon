@@ -23,7 +23,7 @@
     color: #023020;
     border-radius: 20px;
     width: 320px;
-    height: 300px;
+    height: 320px;
     background-color: #f5f5dc;
     margin: 0 auto;
     display: flex;
@@ -49,11 +49,11 @@
 }
 
 .project-links {
-    border-radius: 20px;
+    border-radius: 30px;
     width: 100%;
     display: flex;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     justify-content: center;
     gap: 110px;
     background-color: rgba(0, 0, 0, 0.1);
@@ -63,7 +63,7 @@
 .project-links a {
     color: #023020;
     display: inline-block;
-    font-size: 18px;
+    font-size: 20px;
     transition: color 0.3s ease;
 }
 .project-links a:hover {
@@ -77,8 +77,20 @@
 
     .project-title {
         margin-top: 3rem;
-        font-size: 28px;
+        font-size: 26px;
         margin-bottom: 1.3rem;
+    }
+
+    .project-links {
+        border-radius: 30px;
+        width: 100%;
+        display: flex;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        justify-content: center;
+        gap: 110px;
+        background-color: rgba(0, 0, 0, 0.1);
+        margin-top: auto;
     }
 
     .project-cards-container {
