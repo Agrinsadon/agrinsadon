@@ -1,10 +1,15 @@
-// LanguageSwitcher.js
-import React, { useState } from 'react';
+import React, { useState, useCallback } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 import { hasFlag } from 'country-flag-icons';
-import enTranslations from '../Translation/ENG.json';
-import fiTranslations from '../Translation/FIN.json';
+
+const loadTranslations = async (language) => {
+    if (language === 'US') {
+        return import('../Translation/ENG.json');
+    } else if (language === 'FI') {
+        return import('../Translation/FIN.json');
+    }
+};
 
 const getFlag = (countryCode) => {
     if (hasFlag(countryCode)) {
@@ -13,27 +18,31 @@ const getFlag = (countryCode) => {
     return null;
 };
 
+// eslint-disable-next-line react/display-name,react/prop-types
+const LanguageOption = React.memo(({ countryCode, onClick }) => (
+    <div className="language-option" onClick={onClick}>
+        {getFlag(countryCode)}
+    </div>
+));
+
 // eslint-disable-next-line react/prop-types
 const LanguageSwitcher = ({ currentLanguage, setCurrentLanguage, setTranslations }) => {
     const [showLanguageDropdown, setShowLanguageDropdown] = useState(false);
     const [languageArrowRotation, setLanguageArrowRotation] = useState(0);
 
-    const toggleLanguageDropdown = () => {
-        setShowLanguageDropdown(!showLanguageDropdown);
-        setLanguageArrowRotation(languageArrowRotation === 0 ? 180 : 0);
-    };
+    const toggleLanguageDropdown = useCallback(() => {
+        setShowLanguageDropdown(prev => !prev);
+        setLanguageArrowRotation(prev => (prev === 0 ? 180 : 0));
+    }, []);
 
-    const switchLanguage = (language) => {
+    const switchLanguage = useCallback(async (language) => {
         setCurrentLanguage(language);
         setShowLanguageDropdown(false);
         setLanguageArrowRotation(0);
 
-        if (language === 'US') {
-            setTranslations(enTranslations);
-        } else if (language === 'FI') {
-            setTranslations(fiTranslations);
-        }
-    };
+        const translations = await loadTranslations(language);
+        setTranslations(translations);
+    }, [setCurrentLanguage, setTranslations]);
 
     return (
         <div className="language-selector">
@@ -46,14 +55,10 @@ const LanguageSwitcher = ({ currentLanguage, setCurrentLanguage, setTranslations
             />
             <div className={`language-dropdown ${showLanguageDropdown ? 'show' : ''}`}>
                 {currentLanguage !== 'US' && (
-                    <div className="language-option" onClick={() => switchLanguage('US')}>
-                        {getFlag('US')}
-                    </div>
+                    <LanguageOption countryCode="US" onClick={() => switchLanguage('US')} />
                 )}
                 {currentLanguage !== 'FI' && (
-                    <div className="language-option" onClick={() => switchLanguage('FI')}>
-                        {getFlag('FI')}
-                    </div>
+                    <LanguageOption countryCode="FI" onClick={() => switchLanguage('FI')} />
                 )}
             </div>
         </div>
