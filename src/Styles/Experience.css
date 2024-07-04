@@ -1,17 +1,18 @@
 .experience-header {
     text-align: left;
     margin-left: 2rem;
+
 }
 
 .experience-title {
     font-size: 30px;
     margin-left: 3rem;
-    margin-top: 8.5rem;
+    margin-top: 9rem;
 }
 
 .box-container {
     margin-top: 2rem;
-    margin-bottom: 4rem;
+    margin-bottom: 12rem;
     display: flex;
     overflow-x: auto;
     max-width: 100%;
@@ -20,7 +21,7 @@
 
 .box {
     overflow: hidden;
-    margin-bottom: 10rem;
+    margin-bottom: 1.5rem;
     margin-left: 3rem;
     color: #023020;
     background-color: #f5f5dc;
