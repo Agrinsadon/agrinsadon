@@ -75,6 +75,10 @@
         margin-bottom: 3.5rem;
     }
 
+    .box h1, .box h2, .box h3, .box p {
+        margin-left: 5px;
+    }
+
     .box {
         margin-left: 2rem;
         width: 300px;
