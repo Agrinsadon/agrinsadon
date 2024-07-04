@@ -80,8 +80,8 @@
 }
 
 .language-flag {
-    width: 24px;
-    height: 24px;
+    width: 28px;
+    height: 28px;
     border-radius: 7px;
     margin-right: 8px;
 }
@@ -158,7 +158,7 @@
     .language-selector {
         padding: 1.5rem 3.7rem;
         position: absolute;
-        top: 43%;
+        top: 34%;
         right: 0;
     }
 
@@ -166,7 +166,7 @@
         display: none;
         position: absolute;
         top: 70%;
-        right: 39%;
+        right: 38%;
         z-index: 1001;
     }
 
