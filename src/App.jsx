@@ -1,10 +1,11 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { Element } from 'react-scroll';
 import Home from './Pages/Home';
-import About from "./Pages/About.jsx";
-import Education from "./Pages/Education.jsx";
-import Experience from "./Pages/Experience.jsx";
-import Project from "./Pages/Project.jsx";
+import About from './Pages/About';
+import Education from './Pages/Education';
+import Experience from './Pages/Experience';
+import Project from './Pages/Project';
+import ScrollAnimation from './Components/ScrollAnimation'; // Import ScrollAnimation component
 import fiTranslations from './Translation/FIN.json';
 
 const App = () => {
@@ -15,16 +16,27 @@ const App = () => {
             <Home onTranslationsChange={setTranslations} />
 
             <Element name="about">
-                <About translations={translations} />
+                <ScrollAnimation>
+                    <About translations={translations} />
+                </ScrollAnimation>
             </Element>
+
             <Element name="experience">
-                <Experience translations={translations} />
+                <ScrollAnimation>
+                    <Experience translations={translations} />
+                </ScrollAnimation>
             </Element>
+
             <Element name="projects">
-                <Project translations={translations} />
+                <ScrollAnimation>
+                    <Project translations={translations} />
+                </ScrollAnimation>
             </Element>
+
             <Element name="education">
-                <Education translations={translations} />
+                <ScrollAnimation>
+                    <Education translations={translations} />
+                </ScrollAnimation>
             </Element>
         </>
     );

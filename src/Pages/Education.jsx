@@ -10,6 +10,7 @@ const Education = ({ translations }) => {
         <div>
             {/* eslint-disable-next-line react/prop-types */}
             <h3 className="education-header">{translations.educationHeader}</h3>
+            <br/><br/><br/><br/>
         </div>
     );
 };

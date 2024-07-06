@@ -58,6 +58,7 @@
 .language-selector {
     font-size: 20px;
     position: absolute;
+    top: 21px;
     right: 70px;
     display: flex;
     align-items: center;
