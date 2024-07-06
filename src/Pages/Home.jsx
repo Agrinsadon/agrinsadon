@@ -1,20 +1,21 @@
 import { useState } from 'react';
-import { Element } from 'react-scroll';
 import Navbar from "../Components/Navbar.jsx";
 import '../Styles/Home.css';
 import fiTranslations from '../Translation/FIN.json';
 import { FaGithub, FaEnvelope, FaInstagram, FaFileAlt } from 'react-icons/fa';
-import About from "./About.jsx";
-import Education from "./Education.jsx";
-import Experience from "./Experience.jsx";
-import Project from "./Project.jsx";
 
-const Home = () => {
+// eslint-disable-next-line react/prop-types
+const Home = ({ onTranslationsChange }) => {
     const [translations, setTranslations] = useState(fiTranslations);
+
+    const handleTranslationsChange = (newTranslations) => {
+        setTranslations(newTranslations);
+        onTranslationsChange(newTranslations);
+    };
 
     return (
         <>
-            <Navbar onTranslationsChange={setTranslations} />
+            <Navbar onTranslationsChange={handleTranslationsChange} />
 
             <div className="LandingPage">
                 <h1>Agrin Sadon</h1>
@@ -35,10 +36,6 @@ const Home = () => {
                     </a>
                 </div>
             </div>
-            <Element name="about"> <About translations={translations} /> </Element>
-            <Element name="experience"> <Experience translations={translations} /> </Element>
-            <Element name="projects"> <Project translations={translations} /> </Element>
-            <Element name="education"> <Education translations={translations} /> </Element>
         </>
     );
 };
