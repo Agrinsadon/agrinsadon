@@ -16,3 +16,8 @@
 .animated {
     animation: fadeInUp 2s ease forwards;
 }
+@media screen and (max-width: 992px) {
+    .animated {
+        animation: fadeInUp 1.5s ease forwards;
+    }
+}
