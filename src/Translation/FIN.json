@@ -6,7 +6,7 @@
     "title": "Ohjelmistotekniikan opiskelija",
     "aboutHeader": "01. Minusta",
     "aboutTitle": "Hei Olen Agrin!",
-    "aboutDescription": "Olen omistautunut opiskelija, joka tavoittelee uraa ohjelmistotuotannon insinöörinä. Olen valmis ottamaan vastaan haastavia tehtäviä ja etsimään mahdollisuuksia kehittää taitojani sekä omalla alallani että muilla aloilla. Olen erityisen ylpeä vahvasta työetiikastani, joka näkyy sitoutumisessani laadukkaan työn tuottamiseen. Olen luonteeltani rauhallinen ongelmanratkaisija ja uskon vahvasti siihen, että parhaat ratkaisut syntyvät yhteistyön ja avoimen viestinnän kautta.",
+    "aboutDescription": "Olen omistautunut opiskelija, joka tavoittelee uraa ohjelmistotuotannon insinöörinä. Olen valmis ottamaan vastaan haastavia tehtäviä ja etsimään mahdollisuuksia kehittää taitojani sekä nykyisessä ammatissani että muilla osa-alueilla. Olen erityisen ylpeä vahvasta työetiikastani, joka näkyy sitoutumisessani laadukkaan työn tuottamiseen. Olen luonteeltani rauhallinen ongelmanratkaisija ja uskon vahvasti siihen, että parhaat ratkaisut syntyvät yhteistyön ja avoimen viestinnän kautta.",
     "experienceHeader": "02. Kokemus",
     "experienceTitle": "Minun Työkokemukseni",
     "experienceBoxes": [
@@ -14,25 +14,25 @@
             "date": "2019 - 2022",
             "title": "Käsittelyoperaattori",
             "company": "Murata Electronics Oy",
-            "text": "Vastuullani oli elektroniikkakomponenttien tarkistaminen ja korjaaminen. Työpäivät kestivät 12 tuntia ja minun tuli olla virkeä ja keskittyneenä varmistaakseni, että lopputuotteet olisivat virheettömiä ja korkealaatuisia."
+            "text": "Vastuullani oli elektroniikkakomponenttien tarkistaminen ja korjaaminen. Työpäivät kestivät 12 tuntia ja minun tuli olla virkeä ja keskittynyt varmistaakseni, että lopputuotteet ovat virheettömiä ja korkealaatuisia."
         },
         {
             "date": "2021 - 2022",
             "title": "Avustaja ( PCR )",
             "company": "Terveystalo",
-            "text": "Koronavirustestauksen avustajana suoritin päivittäin testejä 100-200 henkilölle. Vastuullani oli näytteiden käsittely, osallistuminen koko testausprosessiin sekä julkisen terveydenhuollon aloitteiden tukeminen."
+            "text": "Koronavirustestauksen avustajana suoritin päivittäin testejä 100-200 henkilölle. Työni koostui näytteiden käsittelystä ja niiden valmistelemisesta jatkokäsittelyä varten sekä sairaanhoitajien avustamisesta näytteiden ottamisessa."
         },
         {
             "date": "2021 - 2022",
             "title": "Aulatyöntekijä",
             "company": "Espoon Kaupunki",
-            "text": "Avustin päivittäin noin 200-400 henkilöä koronarokotusten suorittamisessa. Tehtäviini kuului asiakkaiden avustaminen, huolehtiminen heidän hyvinvoinnistaan ja varmistamaan, että he kokivat olonsa mukavaksi ja turvalliseksi."
+            "text": "Avustin päivittäin noin 200-400 henkilöä koronarokotusten alku- ja jälkitoimenpiteissä. Tehtäviini kuului potilaiden avustaminen sekä heidän hyvinvoinnistaan huolehtiminen."
         },
         {
             "date": "2019",
             "title": "Varastotyöntekijä",
             "company": "Kesko Oyj",
-            "text": "Työtehtäviini kuului asiakastilauksien mukaisten pakasteiden kerääminen kärryihin, varmistaen tarkkuuden ja tilausten täsmällisyyden. Huolehdin myös osaston järjestyksestä ja tuotteiden oikeasta sijoittelusta varastoon."
+            "text": "Työtehtäviini kuului asiakastilauksien mukaisten pakasteiden kerääminen kärryihin, varmistaen tarkkuuden ja tilausten täsmällisyyden. Huolehdin myös osaston sekä varaston järjestyksestä."
         },
         {
             "date": "2018",
@@ -54,7 +54,7 @@
         },
         {
             "name": "Sähkö Dominus",
-            "description": "Sähkö Dominus verkkosivusto on tehty asiakkaalle, joka tarjoaa ammatillisia sähköasennus- ja korjauspalveluja. Rakennettu Reactilla, Node.js:llä Expressillä ja CSS:llä. Luotu mobiili sekä työpöytäversiona.",
+            "description": "Sähkö Dominus verkkosivusto on tehty asiakkaalle, joka tarjoaa ammattimaisia sähköasennus- ja korjauspalveluja. Rakennettu Reactilla, Node.js:llä Expressillä ja CSS:llä. Luotu mobiili sekä työpöytäversiona.",
             "links": [
                 { "href": "https://github.com/Agrinsadon/sahko-dominus", "icon": "faGithub" },
                 { "href": "https://www.sahkodominus.com/", "icon": "faExternalLinkAlt" }
