@@ -133,21 +133,23 @@
     }
 
     .degree-image-omnia {
-        width: 50%;
+        width: 45%;
     }
 
     .degree-image-metropolia {
-        width: 55%;
+        width: 50%;
     }
 
     .degree-title-omnia {
-        font-size: 19px;
+        font-size: 18px;
         margin-left: 1rem;
         margin-right: 1rem;
     }
 
     .degree-title-metropolia {
-        font-size: 19px;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        font-size: 18px;
         margin-top: 0.6rem;
     }
 
