@@ -36,16 +36,16 @@
     box-sizing: border-box;
 }
 
-.box h1, .box h2, .box h3, .box p {
+.box-date, .box-title, .box-company, .box-text {
     margin-left: 10px;
     margin-bottom: 0;
 }
 
-.box h1 {
+.box-title {
     font-size: 26px;
 }
 
-.box p {
+.box-text {
     font-size: 18px;
     font-weight: lighter;
     font-family: 'Zen Antique Soft1', sans-serif;
@@ -54,16 +54,13 @@
 
 
 @media screen and (max-width: 992px) {
-
     .experience-header {
-        text-align: left;
-        margin-left: 2rem;
         margin-bottom: 0;
         margin-top: 6rem;
     }
 
     .experience-title{
-        font-size: 25px;
+        font-size: 27px;
         margin-left: 2rem;
         margin-top: 3rem;
         margin-bottom: 1.5rem;
@@ -75,7 +72,7 @@
         margin-bottom: 3.5rem;
     }
 
-    .box h1, .box h2, .box h3, .box p {
+    .box-date, .box-title, .box-company, .box-text {
         margin-left: 5px;
     }
 
@@ -86,17 +83,17 @@
         margin-right: 5px;
     }
 
-    .box h1 {
+    .box-title {
         font-size: 21px;
     }
 
-    .box h2 {
+    .box-date {
         font-size: 13px;
         margin-top: 0.5rem;
         margin-bottom: 1rem;
     }
 
-    .box h3 {
+    .box-company {
         margin-top: 0.5rem;
         font-size: 16px;
         font-weight: bolder;

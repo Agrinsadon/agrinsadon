@@ -1,5 +1,159 @@
+{/* Education Section */}
 .education-header {
     text-align: left;
     margin-left: 2rem;
     margin-bottom: 20px;
 }
+
+.code-header {
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 7rem;
+    font-size: 35px;
+}
+
+.code-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.icon-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.icon-container {
+    position: relative;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease-out;
+    width: 70px;
+}
+
+.icon-container:hover {
+    transform: translateY(-15px);
+}
+
+.icon {
+    font-size: 2rem;
+}
+
+.icon-name {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    opacity: 0;
+    transform: translateX(-48%);
+    font-size: 0.75rem;
+    transition: opacity 0.3s ease-out;
+    pointer-events: none;
+}
+
+.icon-container:hover .icon-name {
+    opacity: 1;
+}
+
+{/* Degree Section */}
+.degree-header {
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 5rem;
+    font-size: 35px;
+}
+
+.degree-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.degree-box {
+    text-align: center;
+    flex: 1 1 300px;
+    margin-bottom: 10rem;
+}
+
+.degree-image-omnia {
+    width: 30%;
+    height: auto;
+}
+
+.degree-image-metropolia {
+    width: 33%;
+    height: auto;
+}
+
+.degree-title-omnia {
+    font-size: 21px;
+}
+
+.degree-title-metropolia {
+    font-size: 21px;
+    margin-top: 0.68rem;
+}
+
+.degree-text {
+    font-size: 18px;
+}
+
+@media screen and (max-width: 992px) {
+
+{/* Education Section */}
+    .education-header {
+        margin-bottom: 0;
+    }
+
+    .code-header {
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+        font-size: 27px;
+    }
+
+    .icon-container {
+        width: 45px;
+    }
+
+    .icon-container:hover {
+        transform: translateY(-15px);
+    }
+
+    {/* Degree Section */}
+    .degree-header {
+        margin-bottom: 1.5rem;
+        margin-top: 2rem;
+        font-size: 27px;
+    }
+
+    .degree-box {
+        margin-bottom: 1.5rem;
+    }
+
+    .degree-image-omnia {
+        width: 50%;
+    }
+
+    .degree-image-metropolia {
+        width: 55%;
+    }
+
+    .degree-title-omnia {
+        font-size: 19px;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .degree-title-metropolia {
+        font-size: 19px;
+        margin-top: 0.6rem;
+    }
+
+    .degree-text {
+        font-size: 16px;
+    }
+}
+
+

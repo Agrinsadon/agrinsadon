@@ -21,18 +21,18 @@ const Home = ({ onTranslationsChange }) => {
                 <h1>Agrin Sadon</h1>
                 <hr />
                 <h2>{translations.title}</h2>
-                <div className="icon-container">
+                <div className="home-icon-container">
                     <a href="https://github.com/agrinsadon" target="_blank" rel="noopener noreferrer">
-                        <FaGithub className="icon"/>
+                        <FaGithub className="home-icon"/>
                     </a>
                     <a href="https://www.instagram.com/agrin.sadon" target="_blank" rel="noopener noreferrer">
-                        <FaInstagram className="icon"/>
+                        <FaInstagram className="home-icon"/>
                     </a>
                     <a href="mailto:sadon.code@gmail.com">
-                        <FaEnvelope className="icon"/>
+                        <FaEnvelope className="home-icon"/>
                     </a>
                     <a href="/AgrinCV.pdf" target="_blank" rel="noopener noreferrer">
-                        <FaFileAlt className="icon"/>
+                        <FaFileAlt className="home-icon"/>
                     </a>
                 </div>
             </div>

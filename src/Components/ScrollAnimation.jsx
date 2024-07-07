@@ -14,7 +14,7 @@ const ScrollAnimation = ({ children }) => {
                 }
             },
             {
-                threshold: 0, // Adjust as needed
+                threshold: 0.05,
             }
         );
 

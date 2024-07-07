@@ -78,5 +78,9 @@
         }
     ],
 
-"educationHeader": "04. Koulutus"
+    "educationHeader": "04. Koulutus",
+    "codeEducation": "Koodaustaidot",
+    "degreeHeader": "Tutkinnot",
+    "degreeTitleMetropolia": "Tieto- ja viestintätekniikan insinööri",
+    "degreeTitleOmnia": "Sähkö- ja automaatiotekniikka"
 }

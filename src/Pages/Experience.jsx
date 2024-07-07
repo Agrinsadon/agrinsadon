@@ -15,10 +15,10 @@ const Experience = ({ translations }) => {
                 {/* eslint-disable-next-line react/prop-types */}
                 {translations.experienceBoxes.map((box, index) => (
                     <div className="box" key={index}>
-                        <h2>{box.date}</h2>
-                        <h1>{box.title}</h1>
-                        <h3>{box.company}</h3>
-                        <p>{box.text}</p>
+                        <h2 className="box-date">{box.date}</h2>
+                        <h1 className="box-title">{box.title}</h1>
+                        <h3 className="box-company">{box.company}</h3>
+                        <p className="box-text">{box.text}</p>
                     </div>
                 ))}
             </div>
