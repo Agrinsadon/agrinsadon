@@ -2,7 +2,7 @@ import { useState } from 'react';
 import Navbar from "../Components/Navbar.jsx";
 import '../Styles/Home.css';
 import fiTranslations from '../Translation/FIN.json';
-import { FaGithub, FaEnvelope, FaInstagram, FaFileAlt } from 'react-icons/fa';
+import { FaGithub, FaEnvelope, FaLinkedin, FaFileAlt } from 'react-icons/fa';
 
 // eslint-disable-next-line react/prop-types
 const Home = ({ onTranslationsChange }) => {
@@ -25,8 +25,8 @@ const Home = ({ onTranslationsChange }) => {
                     <a href="https://github.com/agrinsadon" target="_blank" rel="noopener noreferrer">
                         <FaGithub className="home-icon"/>
                     </a>
-                    <a href="https://www.instagram.com/agrin.sadon" target="_blank" rel="noopener noreferrer">
-                        <FaInstagram className="home-icon"/>
+                    <a href="https://www.linkedin.com/in/agrin-sadon-25724a265" target="_blank" rel="noopener noreferrer">
+                        <FaLinkedin className="home-icon"/>
                     </a>
                     <a href="mailto:sadon.code@gmail.com">
                         <FaEnvelope className="home-icon"/>
