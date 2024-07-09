@@ -25,7 +25,7 @@
     margin: 0 auto;
     display: flex;
     justify-content: center;
-    gap: 35px;
+    gap: 50px;
 }
 
 .home-icon {
@@ -59,6 +59,13 @@
         margin-left: 3rem;
         margin-right: 3rem;
         font-size: 1.5em;
+    }
+
+    .home-icon-container {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        gap: 40px;
     }
 
     .home-icon {

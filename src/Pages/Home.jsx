@@ -31,9 +31,6 @@ const Home = ({ onTranslationsChange }) => {
                     <a href="mailto:sadon.code@gmail.com">
                         <FaEnvelope className="home-icon"/>
                     </a>
-                    <a href="/AgrinCV.pdf" target="_blank" rel="noopener noreferrer">
-                        <FaFileAlt className="home-icon"/>
-                    </a>
                 </div>
             </div>
         </>
