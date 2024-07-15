@@ -54,7 +54,7 @@
         },
         {
             "name": "Sähkö Dominus",
-            "description": "Sähkö Dominus is a website made for a client offering professional electronic installation and repair services. Build with React, Node.js with Express and CSS.",
+            "description": "Sähkö Dominus is a website made for a client offering professional electronic installation and repair services. Build with React, Node.js with Express and CSS. Created as a mobile and desktop version.",
             "links": [
                 { "href": "https://github.com/Agrinsadon/sahko-dominus", "icon": "faGithub" },
                 { "href": "https://www.sahkodominus.com/", "icon": "faExternalLinkAlt" }
@@ -62,7 +62,7 @@
         },
         {
             "name": "Renteez",
-            "description": "Renteez is a platform where you can publish or rent apartments in Helsinki. It is mainly made for students who are looking for apartments. Built with React, Node.js with Express, MongoDB, and CSS.",
+            "description": "Renteez is a platform where you can publish or rent apartments in Helsinki. It is mainly made for students who are looking for apartments. Built with React, Node.js with Express, MongoDB, and CSS. Created as a desktop version.",
             "links": [
                 { "href": "https://github.com/theomi/renteez", "icon": "faGithub" },
                 { "href": "https://renteez.onrender.com/", "icon": "faExternalLinkAlt" }
@@ -70,7 +70,7 @@
         },
         {
             "name": "Tuutorikeskus",
-            "description": "Tuutorikeskus is a website made for client that provides guidance and support to help students prepare for their medical entrance exams in Romania. Built with React, Node.js with Express and CSS.",
+            "description": "Tuutorikeskus is a website made for client that provides guidance and support to help students prepare for their medical entrance exams in Romania. Built with React, Node.js with Express and CSS. Created as a mobile and desktop version.",
             "links": [
                 { "href": "https://github.com/Agrinsadon/Tuutorikeskus", "icon": "faGithub" },
                 { "href": "https://www.tuutorikeskus.com/", "icon": "faExternalLinkAlt" }
