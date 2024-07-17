@@ -2,7 +2,7 @@ import { useState } from 'react';
 import Navbar from "../Components/Navbar.jsx";
 import '../Styles/Home.css';
 import fiTranslations from '../Translation/FIN.json';
-import { FaGithub, FaEnvelope, FaLinkedin, FaFileAlt } from 'react-icons/fa';
+import { FaGithub, FaEnvelope, FaLinkedin } from 'react-icons/fa';
 
 // eslint-disable-next-line react/prop-types
 const Home = ({ onTranslationsChange }) => {

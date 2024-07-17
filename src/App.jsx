@@ -15,25 +15,25 @@ const App = () => {
         <>
             <Home onTranslationsChange={setTranslations} />
 
-            <Element name="about">
+            <Element name="about" className="AboutMe">
                 <ScrollAnimation>
                     <About translations={translations} />
                 </ScrollAnimation>
             </Element>
 
-            <Element name="experience">
+            <Element name="experience" className="Experience">
                 <ScrollAnimation>
                     <Experience translations={translations} />
                 </ScrollAnimation>
             </Element>
 
-            <Element name="projects">
+            <Element name="projects" className="Projects">
                 <ScrollAnimation>
                     <Project translations={translations} />
                 </ScrollAnimation>
             </Element>
 
-            <Element name="education">
+            <Element name="education" className="Education">
                 <ScrollAnimation>
                     <Education translations={translations} />
                 </ScrollAnimation>

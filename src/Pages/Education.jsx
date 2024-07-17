@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from "react";
 import { FaReact, FaNodeJs, FaDocker, FaPython, FaJava, FaGit } from "react-icons/fa";
 import { DiJavascript1, DiCss3, DiHtml5, DiMongodb, DiMysql } from "react-icons/di";
@@ -19,14 +20,16 @@ const icons = [
     { component: DiMysql, name: "MySQL" },
 ];
 
+// eslint-disable-next-line react/prop-types
 const Education = ({ translations }) => {
-    // Split icons array into two arrays for two rows
     const iconsRow1 = icons.slice(0, 6); // First 6 icons
     const iconsRow2 = icons.slice(6);   // Remaining icons
 
     return (
-        <div>
+        <>
+            {/* eslint-disable-next-line react/prop-types */}
             <h3 className="education-header">{translations.educationHeader}</h3>
+            {/* eslint-disable-next-line react/prop-types */}
             <h2 className="code-header">{translations.codeEducation}</h2>
             <div className="code-container">
                 <div className="icon-row">
@@ -60,7 +63,7 @@ const Education = ({ translations }) => {
                     <p className="degree-text">2015 - 2018</p>
                 </div>
             </div>
-        </div>
+        </>
     );
 };
 

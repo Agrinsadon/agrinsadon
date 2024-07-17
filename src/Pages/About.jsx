@@ -5,7 +5,7 @@ import '../Styles/About.css';
 // eslint-disable-next-line react/prop-types
 const About = ({ translations }) => {
     return (
-        <div className="AboutMe">
+        <>
             {/* eslint-disable-next-line react/prop-types */}
             <h3 className="about-header">{translations.aboutHeader}</h3>
             <div className="about-container">
@@ -21,7 +21,7 @@ const About = ({ translations }) => {
                     </p>
                 </div>
             </div>
-        </div>
+        </>
     );
 };
 

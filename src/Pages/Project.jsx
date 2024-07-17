@@ -8,7 +8,7 @@ import '../Styles/Project.css';
 // eslint-disable-next-line react/prop-types
 const Project = ({ translations }) => {
     return (
-        <div className="Projects">
+        <>
             {/* eslint-disable-next-line react/prop-types */}
             <h3 className="project-header">{translations.projectHeader}</h3>
             {/* eslint-disable-next-line react/prop-types */}
@@ -32,7 +32,7 @@ const Project = ({ translations }) => {
                     </div>
                 ))}
             </div>
-        </div>
+        </>
     );
 };
 
