@@ -5,7 +5,7 @@ import About from './Pages/About';
 import Education from './Pages/Education';
 import Experience from './Pages/Experience';
 import Project from './Pages/Project';
-import ScrollAnimation from './Components/ScrollAnimation'; // Import ScrollAnimation component
+import ScrollAnimation from './Components/ScrollAnimation';
 import fiTranslations from './Translation/FIN.json';
 
 const App = () => {
