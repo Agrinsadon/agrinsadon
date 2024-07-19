@@ -8,7 +8,7 @@ const IntroOverlay = ({ onFinish }) => {
     useEffect(() => {
         const timer = setTimeout(() => {
             setVideoEnded(true);
-        }, 4000);
+        }, 4500);
 
         return () => clearTimeout(timer);
     }, []);
