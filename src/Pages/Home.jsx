@@ -3,7 +3,6 @@ import Navbar from "../Components/Navbar.jsx";
 import '../Styles/Home.css';
 import fiTranslations from '../Translation/FIN.json';
 import { FaGithub, FaEnvelope, FaLinkedin } from 'react-icons/fa';
-import IntroOverlay from "../Components/IntroOverlay.jsx";
 
 // eslint-disable-next-line react/prop-types
 const Home = ({ onTranslationsChange }) => {
@@ -16,7 +15,6 @@ const Home = ({ onTranslationsChange }) => {
 
     return (
         <>
-            <IntroOverlay />
             <Navbar onTranslationsChange={handleTranslationsChange} />
 
             <div className="LandingPage">
