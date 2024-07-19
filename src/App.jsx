@@ -6,13 +6,21 @@ import Education from './Pages/Education';
 import Experience from './Pages/Experience';
 import Project from './Pages/Project';
 import ScrollAnimation from './Components/ScrollAnimation';
+import IntroOverlay from './Components/IntroOverlay';
 import fiTranslations from './Translation/FIN.json';
 
 const App = () => {
     const [translations, setTranslations] = useState(fiTranslations);
+    const [overlayVisible, setOverlayVisible] = useState(true);
+
+    const handleOverlayFinish = () => {
+        setOverlayVisible(false);
+    };
 
     return (
         <>
+            {overlayVisible && <IntroOverlay onFinish={handleOverlayFinish} />}
+
             <Home onTranslationsChange={setTranslations} />
 
             <Element name="about" className="AboutMe">
