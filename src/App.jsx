@@ -6,7 +6,6 @@ import Education from './Pages/Education';
 import Experience from './Pages/Experience';
 import Project from './Pages/Project';
 import ScrollAnimation from './Components/ScrollAnimation';
-import IntroOverlay from './Components/IntroOverlay';
 import fiTranslations from './Translation/FIN.json';
 
 const App = () => {
@@ -14,8 +13,6 @@ const App = () => {
 
     return (
         <>
-            <IntroOverlay />
-
             <Home onTranslationsChange={setTranslations} />
 
             <Element name="about" className="AboutMe">
