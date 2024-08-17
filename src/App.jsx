@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
+import { Analytics } from "@vercel/analytics/react";
 import { Element } from 'react-scroll';
-import ReactGA from 'react-ga'; // Import the react-ga library
 import Home from './Pages/Home';
 import About from './Pages/About';
 import Education from './Pages/Education';
@@ -12,22 +12,6 @@ import fiTranslations from './Translation/FIN.json';
 
 const App = () => {
     const [translations, setTranslations] = useState(fiTranslations);
-
-    useEffect(() => {
-        ReactGA.initialize('G-V3ED2G6G27');
-        ReactGA.pageview(window.location.pathname + window.location.search);
-    }, []);
-
-    useEffect(() => {
-        const handleRouteChange = () => {
-            ReactGA.pageview(window.location.pathname + window.location.search);
-        };
-
-        window.addEventListener('popstate', handleRouteChange);
-        return () => {
-            window.removeEventListener('popstate', handleRouteChange);
-        };
-    }, []);
 
     return (
         <>
@@ -56,6 +40,8 @@ const App = () => {
                     <Education translations={translations} />
                 </ScrollAnimation>
             </Element>
+
+            <Analytics />
         </>
     );
 };
