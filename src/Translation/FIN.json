@@ -51,6 +51,12 @@
     "projectTitle": "Viimeaikaiset Projektit",
     "projectsCards": [
         {
+            "name": "MenStyle",
+            "description": "Jatkuva projekti... \n \n Tuutorikeskus verkkosivusto on tehty asiakkaalle, joka tarjoaa opastusta ja tukea auttaakseen opiskelijoita valmistautumaan lääketieteen pääsykokeisiin Romaniassa. Rakennettu **Reactilla**, **Node.js:llä Expressillä** ja **CSS:llä**. Luotu mobiili sekä työpöytäversiona.",            "links": [
+                { "href": "https://menstyle.vercel.app/", "icon": "faExternalLinkAlt" }
+            ]
+        },
+        {
             "name": "EcoPlug",
             "description": "Ecoplug on mobiilisovellus, joka auttaa käyttäjiä löytämään vapaat sähköautojen latauspisteet Uudellamaalla. Rakennettu React Nativella, CSS:llä, Node.js:llä, MySQL:llä, Dockerilla ja Jenkinsillä jatkuvaa testausta varten.",
             "links": [
@@ -59,27 +65,18 @@
             ]
         },
         {
+            "name": "Tuutorikeskus",
+            "description": "Tuutorikeskus verkkosivusto on tehty asiakkaalle, joka tarjoaa opastusta ja tukea auttaakseen opiskelijoita valmistautumaan lääketieteen pääsykokeisiin Romaniassa. Rakennettu Reactilla, Node.js:llä Expressillä ja CSS:llä. Luotu mobiili sekä työpöytäversiona.",
+            "links": [
+                { "href": "https://www.tuutorikeskus.com/", "icon": "faExternalLinkAlt" }
+            ]
+        },
+        {
             "name": "Sähkö Dominus",
             "description": "Sähkö Dominus verkkosivusto on tehty asiakkaalle, joka tarjoaa ammattimaisia sähköasennus- ja korjauspalveluja. Rakennettu Reactilla, Node.js:llä Expressillä ja CSS:llä. Luotu mobiili sekä työpöytäversiona.",
             "links": [
                 { "href": "https://github.com/Agrinsadon/sahko-dominus", "icon": "faGithub" },
                 { "href": "https://www.sahkodominus.com/", "icon": "faExternalLinkAlt" }
-            ]
-        },
-        {
-            "name": "Renteez",
-            "description": "Renteez on alusta, jossa voit julkaista tai vuokrata asuntoja Helsingissä. Se on pääasiassa tarkoitettu opiskelijoille, jotka etsivät asuntoa. Rakennettu Reactilla, Node.js:llä Expressillä, MongoDB:llä ja CSS:llä. Luotu vain työpöytäversiona.",
-            "links": [
-                { "href": "https://github.com/theomi/renteez", "icon": "faGithub" },
-                { "href": "https://renteez.onrender.com/", "icon": "faExternalLinkAlt" }
-            ]
-        },
-        {
-            "name": "Tuutorikeskus",
-            "description": "Tuutorikeskus verkkosivusto on tehty asiakkaalle, joka tarjoaa opastusta ja tukea auttaakseen opiskelijoita valmistautumaan lääketieteen pääsykokeisiin Romaniassa. Rakennettu Reactilla, Node.js:llä Expressillä ja CSS:llä. Luotu mobiili sekä työpöytäversiona.",
-            "links": [
-                { "href": "https://github.com/Agrinsadon/Tuutorikeskus", "icon": "faGithub" },
-                { "href": "https://www.tuutorikeskus.com/", "icon": "faExternalLinkAlt" }
             ]
         }
     ],

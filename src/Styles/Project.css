@@ -15,15 +15,19 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    gap: 16px;
+    gap: 10px;
+    margin-left: 1rem;
+    margin-right: 1rem;
     margin-bottom: 17rem;
 }
 
 .project-card {
     color: #023020;
-    border-radius: 20px;
-    width: 320px;
-    height: 320px;
+    border-radius: 30px;
+    width: 340px;
+    max-width: 340px;
+    max-height: 370px;
+    height: 370px;
     background-color: #f5f5dc;
     margin: 0 auto;
     display: flex;
@@ -38,6 +42,7 @@
 }
 
 .project-description {
+    white-space: pre-line;
     font-size: 17px;
     margin-top: 0;
     flex-grow: 1;
@@ -45,7 +50,6 @@
     padding-right: 10px;
     font-weight: lighter;
     font-family: 'Zen Antique Soft1', sans-serif;
-    white-space: normal;
 }
 
 .project-links {
@@ -93,6 +97,7 @@
     }
 
     .project-cards-container {
+        gap: 4rem;
         margin-bottom: 4rem;
     }
 
