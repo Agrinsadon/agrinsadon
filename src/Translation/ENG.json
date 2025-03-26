@@ -52,14 +52,15 @@
     "projectsCards": [
         {
             "name": "MenStyle",
-            "description": "Ongoing project... \n \n Ecoplug is a mobile app that helps users find available electric vehicle charging spots in Uusimaa. Built with React Native, CSS, Node.js, MySQL, Docker and Jenkins is used for continuous integration and testing.",
+            "description": "**ONGOING PROJECT...** \n \nMen Style is a **website** for a barber shop chain in Finland with 9 locations across the country.\n \nBuild with **React**, **Next.js**, **TypeScript**, **Node.js**, **Express**, and **CSS**.",
             "links": [
                 { "href": "https://menstyle.vercel.app/", "icon": "faExternalLinkAlt" }
             ]
         },
         {
             "name": "EcoPlug",
-            "description": "Ecoplug is a mobile app that helps users find available electric vehicle charging spots in Uusimaa. Built with React Native, CSS, Node.js, MySQL, Docker and Jenkins is used for continuous integration and testing.",
+            "description": "Ecoplug is a **mobile app** that helps users find available electric vehicle charging spots in Uusimaa. \n \n Built with **React Native**, **Javascript**, **CSS**, **Node.js** and **MySQL**. \n \n **Docker** and **Jenkins** is used for continuous integration and testing.",
+
             "links": [
                 { "href": "https://github.com/MuathOthman/EcoPlugMobileApp", "icon": "faGithub" },
                 { "href": "https://youtu.be/bBMAk98vEuk?si=IXvr0nPgAYl10m2b", "icon": "faYoutube" }
@@ -67,14 +68,14 @@
         },
         {
             "name": "Tuutorikeskus",
-            "description": "Tuutorikeskus is a website made for client that provides guidance and support to help students prepare for their medical entrance exams in Romania. Built with React, Node.js with Express and CSS. Created as a mobile and desktop version.",
+            "description": "Tuutorikeskus is a **website** that provides guidance and support to help students prepare for their medical entrance exams in Romania.\n \n Built with **React**, **Javascript**, **Node.js**, **Express** and **CSS**. \n \nCreated as a mobile and desktop version.",
             "links": [
                 { "href": "https://www.tuutorikeskus.com/", "icon": "faExternalLinkAlt" }
             ]
         },
         {
             "name": "Sähkö Dominus",
-            "description": "Sähkö Dominus is a website made for a client offering professional electronic installation and repair services. Build with React, Node.js with Express and CSS. Created as a mobile and desktop version.",
+            "description": "Sähkö Dominus is a **website** made for a client offering professional electronic installation and repair services.\n \n Build with **React**, **Javascript**, **Node.js**, **Express** and **CSS**. \n \nCreated as a mobile and desktop version.",
             "links": [
                 { "href": "https://www.sahkodominus.com/", "icon": "faExternalLinkAlt" }
             ]
