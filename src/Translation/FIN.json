@@ -52,13 +52,14 @@
     "projectsCards": [
         {
             "name": "MenStyle",
-            "description": "Jatkuva projekti... \n \n Tuutorikeskus verkkosivusto on tehty asiakkaalle, joka tarjoaa opastusta ja tukea auttaakseen opiskelijoita valmistautumaan lääketieteen pääsykokeisiin Romaniassa. Rakennettu **Reactilla**, **Node.js:llä Expressillä** ja **CSS:llä**. Luotu mobiili sekä työpöytäversiona.",            "links": [
+            "description": "**JATKUVA PROJEKTI...** \n \nMen Style on **verkkosivusto** parturiketjulle Suomessa, jolla on 9 toimipistettä ympäri maata. \n \n Rakennettu **React**, **Next.js**, **TypeScript**, **Node.js**, **Express** ja **CSS** avulla.",
+            "links": [
                 { "href": "https://menstyle.vercel.app/", "icon": "faExternalLinkAlt" }
             ]
         },
         {
             "name": "EcoPlug",
-            "description": "Ecoplug on mobiilisovellus, joka auttaa käyttäjiä löytämään vapaat sähköautojen latauspisteet Uudellamaalla. Rakennettu React Nativella, CSS:llä, Node.js:llä, MySQL:llä, Dockerilla ja Jenkinsillä jatkuvaa testausta varten.",
+            "description": "Ecoplug on **mobiilisovellus**, joka auttaa käyttäjiä löytämään vapaat sähköautojen latauspisteet Uudellamaalla. \n \n Rakennettu **React Native**,**Javascript**, **CSS**, **Node.js**, **Express** ja **MySQL** avulla.\n \n  **Docker**:lla ja **Jenkins**:llä tehtiin jatkuvaa testausta.",
             "links": [
                 { "href": "https://github.com/MuathOthman/EcoPlugMobileApp", "icon": "faGithub" },
                 { "href": "https://youtu.be/bBMAk98vEuk?si=IXvr0nPgAYl10m2b", "icon": "faYoutube" }
@@ -66,16 +67,15 @@
         },
         {
             "name": "Tuutorikeskus",
-            "description": "Tuutorikeskus verkkosivusto on tehty asiakkaalle, joka tarjoaa opastusta ja tukea auttaakseen opiskelijoita valmistautumaan lääketieteen pääsykokeisiin Romaniassa. Rakennettu Reactilla, Node.js:llä Expressillä ja CSS:llä. Luotu mobiili sekä työpöytäversiona.",
+            "description": "Tuutorikeskus on **verkkosivusto** joka opastaa ja tukee opiskelijoita valmistautumaan lääketieteen pääsykokeisiin Romaniassa. \n \n Rakennettu **React**, **Javascript**, **Node.js**, **Express** ja **CSS** avulla. \n \n Luotu mobiili sekä työpöytäversiona.",
             "links": [
                 { "href": "https://www.tuutorikeskus.com/", "icon": "faExternalLinkAlt" }
             ]
         },
         {
             "name": "Sähkö Dominus",
-            "description": "Sähkö Dominus verkkosivusto on tehty asiakkaalle, joka tarjoaa ammattimaisia sähköasennus- ja korjauspalveluja. Rakennettu Reactilla, Node.js:llä Expressillä ja CSS:llä. Luotu mobiili sekä työpöytäversiona.",
+            "description": "Sähkö Dominus on **verkkosivusto**, joka tarjoaa ammattimaisia sähköasennus- ja korjauspalveluja. \n \n Rakennettu **React**, **Javascript**, **Node.js**, **Express** ja **CSS** avulla. \n \n Luotu mobiili sekä työpöytäversiona.",
             "links": [
-                { "href": "https://github.com/Agrinsadon/sahko-dominus", "icon": "faGithub" },
                 { "href": "https://www.sahkodominus.com/", "icon": "faExternalLinkAlt" }
             ]
         }

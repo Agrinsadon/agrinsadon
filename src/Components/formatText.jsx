@@ -2,12 +2,11 @@
 import React from 'react';
 
 export const formatDescription = (text) => {
-    const lines = text.split('\n');
-    return lines.map((line, index) => (
-        <span
-            key={index}
-            dangerouslySetInnerHTML={{ __html: line.replace(/\*\*(.*?)\*\*/g, '<b>$1</b>') }}
-        />
-    ));
+    const parts = text.split(/(\*\*.*?\*\*)/); // Split by **bold** patterns
+    return parts.map((part, index) => {
+        if (part.startsWith('**') && part.endsWith('**')) {
+            return <b key={index}>{part.slice(2, -2)}</b>; // Remove ** and wrap in <b>
+        }
+        return <span key={index}>{part}</span>; // Keep regular text with \n
+    });
 };
-
