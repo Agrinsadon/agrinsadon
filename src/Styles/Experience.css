@@ -17,6 +17,12 @@
     overflow-x: auto;
     max-width: 100%;
     white-space: nowrap;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.box-container::-webkit-scrollbar {
+    display: none;
 }
 
 .box {
