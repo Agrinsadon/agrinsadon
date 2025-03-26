@@ -11,6 +11,12 @@
     "experienceTitle": "Työkokemukset",
     "experienceBoxes": [
         {
+            "date": "2023 - jatkuva",
+            "title": "Full-Stack -kehittäjä",
+            "company": "Agrin Sadon",
+            "text": "Työskentelen itsenäisesti verkkosivustojen ja -sovellusten parissa. Vastaan sekä käyttöliittymän että taustajärjestelmän toteutuksesta ja huolehdin projektien suunnittelusta, teknisestä toteutuksesta ja asiakasyhteistyöstä."
+        },
+        {
             "date": "2019 - 2022",
             "title": "Käsittelyoperaattori",
             "company": "Murata Electronics Oy",
@@ -82,5 +88,6 @@
     "codeEducation": "Koodaustaidot",
     "degreeHeader": "Tutkinnot",
     "degreeTitleMetropolia": "Tieto- ja viestintätekniikan insinööri",
-    "degreeTitleOmnia": "Sähkö- ja automaatio asentaja"
+    "degreeTitleOmnia": "Sähkö- ja automaatio asentaja",
+    "soon": "Jatkuva"
 }
