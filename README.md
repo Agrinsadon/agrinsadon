@@ -2,7 +2,7 @@
 
 I'm [**Agrin**](https://www.agrinsadon.fi/), a software engineer student from Espoo, Finland.
 
-I am currently working as a freelance full stack developer, also engaging in pet projects using AI. 
+I am currently working as a freelance software developer, also engaging in pet projects using AI. 
 
 In my free time, I keep up with emerging technologies and enjoy playing video games.
 
