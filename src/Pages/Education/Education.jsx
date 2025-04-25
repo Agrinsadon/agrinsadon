@@ -30,7 +30,7 @@ const Education = ({ translations }) => {
     const iconsRow3 = icons.slice(10);
 
     return (
-        <>
+        <div className="page-content">
             {/* eslint-disable-next-line react/prop-types */}
             <h3 className="education-header">{translations.educationHeader}</h3>
             {/* eslint-disable-next-line react/prop-types */}
@@ -75,7 +75,7 @@ const Education = ({ translations }) => {
                     <p className="degree-text">2015 - 2018</p>
                 </div>
             </div>
-        </>
+        </div>
     );
 };
 

@@ -1,3 +1,10 @@
+.page-content {
+  margin: auto;
+  max-width: 1000px;
+  min-height: 50vh;
+  padding-top: 100px;
+}
+
 .education-header {
     text-align: left;
     margin-left: 2rem;
@@ -137,5 +144,3 @@
     }
 
 }
-
-

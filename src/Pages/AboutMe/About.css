@@ -1,5 +1,5 @@
-.about-container {
-    display: flex;
+.page-content {
+    margin: auto;
     align-items: center;
     justify-content: center;
     flex-direction: row;

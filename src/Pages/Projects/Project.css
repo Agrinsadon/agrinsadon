@@ -1,3 +1,10 @@
+.page-content {
+  margin: auto;
+  max-width: 1000px;
+  min-height: 50vh;
+  padding-top: 100px;
+}
+
 .project-header {
     text-align: left;
     margin-left: 2rem;
@@ -10,64 +17,31 @@
     margin-bottom: 3rem;
 }
 
-.project-cards-container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 10px;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-bottom: 17rem;
+.project-grid {
+    grid-gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
 }
 
 .project-card {
-    color: #023020;
-    border-radius: 30px;
-    width: 340px;
-    max-width: 340px;
-    max-height: 370px;
-    height: 370px;
-    background-color: #f5f5dc;
-    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 16px;
+    cursor: default;
     display: flex;
     flex-direction: column;
+    padding: 2rem 1.75rem;
+    position: relative;
 }
 
-.project-name {
-    padding-left: 20px;
-    padding-top: 5px;
-    margin-bottom: 1rem;
-}
-
-.project-description {
-    white-space: pre-line;
-    margin-top: 0;
-    flex-grow: 1;
-    padding-left: 20px;
-    padding-right: 10px;
-    font-weight: lighter;
-}
-
-.project-links {
-    border-radius: 30px;
-    width: 100%;
+.project-header-container {
+    border-bottom: none !important;
     display: flex;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    justify-content: center;
-    gap: 110px;
-    background-color: rgba(0, 0, 0, 0.1);
-    margin-top: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1.25em 0 !important;
 }
 
-.project-links a {
-    color: #023020;
-    display: inline-block;
-    transition: color 0.3s ease;
-}
-.project-links a:hover {
-    color: rgba(2, 48, 32, 0.73);
-}
+
 
 @media screen and (max-width: 992px) {
     .project-header {
@@ -85,15 +59,8 @@
         display: flex;
         padding-top: 10px;
         padding-bottom: 10px;
-        justify-content: center;
-        gap: 110px;
+        justify-content: flex-end; /* Align to the right */
+        gap: 10px;
         margin-top: auto;
     }
-
-    .project-cards-container {
-        gap: 4rem;
-        margin-bottom: 4rem;
-    }
 }
-
-
