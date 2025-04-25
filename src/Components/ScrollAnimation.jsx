@@ -1,6 +1,7 @@
-import React, { useEffect, useState, useRef } from 'react';
-import '../Styles/ScrollAnimation.css'; // Import the CSS file
+import { useEffect, useState, useRef } from 'react';
+import '../Styles/ScrollAnimation.css';
 
+// eslint-disable-next-line react/prop-types
 const ScrollAnimation = ({ children }) => {
     const [isVisible, setIsVisible] = useState(false);
     const elementRef = useRef(null);

@@ -6,7 +6,7 @@
     "title": "Software Engineer",
     "aboutHeader": "01. About Me",
     "aboutTitle": "Hello, I'm Agrin!",
-    "aboutDescription": "I am a student who is about to transition into a career as a software engineer. I am preparing to take on challenging tasks and seek opportunities to develop my skills both in my current role and in new areas. I take pride in my strong work ethic, which is reflected in my commitment to producing high-quality work. I am a calm problem-solver by nature and believe that the best solutions arise through collaboration and open communication.",
+    "aboutDescription": "I am a student who is about to transition into a career as a software engineer. I am preparing to take on challenging tasks and seek opportunities to develop my skills. I take pride in my strong work ethic, which is reflected in my commitment to producing high-quality work. I am a calm problem-solver by nature and believe that the best solutions arise through collaboration and open communication.",
     "experienceHeader": "02. Experience",
     "experienceTitle": "Work Experience",
     "experienceBoxes": [
@@ -51,35 +51,33 @@
     "projectTitle": "Recent Projects",
     "projectsCards": [
         {
+            "name": "MenStyle",
+            "description": "**ONGOING PROJECT...** \n \nMen Style is a **website** for a barber shop chain in Finland with 9 locations across the country.\n \nBuild with **React**, **Next.js**, **TypeScript**, **Node.js**, **Express**, and **CSS**.",
+            "links": [
+                { "href": "https://menstyle.vercel.app/", "icon": "faExternalLinkAlt" }
+            ]
+        },
+        {
             "name": "EcoPlug",
-            "description": "Ecoplug is a mobile app that helps users find available electric vehicle charging spots in Uusimaa. Built with React Native, CSS, Node.js, MySQL, Docker and Jenkins is used for continuous integration and testing.",
+            "description": "Ecoplug is a **mobile app** that helps users find available electric vehicle charging spots in Uusimaa. \n \n Built with **React Native**, **Javascript**, **CSS**, **Node.js** and **MySQL**. \n \n **Docker** and **Jenkins** is used for continuous integration and testing.",
+
             "links": [
                 { "href": "https://github.com/MuathOthman/EcoPlugMobileApp", "icon": "faGithub" },
                 { "href": "https://youtu.be/bBMAk98vEuk?si=IXvr0nPgAYl10m2b", "icon": "faYoutube" }
             ]
         },
         {
-            "name": "Sähkö Dominus",
-            "description": "Sähkö Dominus is a website made for a client offering professional electronic installation and repair services. Build with React, Node.js with Express and CSS. Created as a mobile and desktop version.",
-            "links": [
-                { "href": "https://github.com/Agrinsadon/sahko-dominus", "icon": "faGithub" },
-                { "href": "https://www.sahkodominus.com/", "icon": "faExternalLinkAlt" }
-            ]
-        },
-        {
-            "name": "Renteez",
-            "description": "Renteez is a platform where you can publish or rent apartments in Helsinki. It is mainly made for students who are looking for apartments. Built with React, Node.js with Express, MongoDB, and CSS. Created as a desktop version.",
-            "links": [
-                { "href": "https://github.com/theomi/renteez", "icon": "faGithub" },
-                { "href": "https://renteez.onrender.com/", "icon": "faExternalLinkAlt" }
-            ]
-        },
-        {
             "name": "Tuutorikeskus",
-            "description": "Tuutorikeskus is a website made for client that provides guidance and support to help students prepare for their medical entrance exams in Romania. Built with React, Node.js with Express and CSS. Created as a mobile and desktop version.",
+            "description": "Tuutorikeskus is a **website** that provides guidance and support to help students prepare for their medical entrance exams in Romania.\n \n Built with **React**, **Javascript**, **Node.js**, **Express** and **CSS**. \n \nCreated as a mobile and desktop version.",
             "links": [
-                { "href": "https://github.com/Agrinsadon/Tuutorikeskus", "icon": "faGithub" },
                 { "href": "https://www.tuutorikeskus.com/", "icon": "faExternalLinkAlt" }
+            ]
+        },
+        {
+            "name": "Sähkö Dominus",
+            "description": "Sähkö Dominus is a **website** made for a client offering professional electronic installation and repair services.\n \n Build with **React**, **Javascript**, **Node.js**, **Express** and **CSS**. \n \nCreated as a mobile and desktop version.",
+            "links": [
+                { "href": "https://www.sahkodominus.com/", "icon": "faExternalLinkAlt" }
             ]
         }
     ],

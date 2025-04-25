@@ -2,14 +2,15 @@
 import React from "react";
 import { FaReact, FaNodeJs, FaDocker, FaPython, FaJava, FaGit } from "react-icons/fa";
 import { DiJavascript1, DiCss3, DiHtml5, DiMongodb, DiMysql } from "react-icons/di";
-import { SiJenkins, SiRust, SiLinux, SiWireshark } from "react-icons/si";
+import {SiGo, SiJenkins, SiKubernetes, SiTypescript} from "react-icons/si";
 import '../Styles/Education.css';
 
 const icons = [
     { component: DiJavascript1, name: "JavaScript" },
+    { component: SiTypescript, name: "Typescript"},
+    { component: SiGo, name: "GoLang"},
     { component: FaJava, name: "Java" },
     { component: FaPython, name: "Python" },
-    { component: SiRust, name: "Rust" },
     { component: FaReact, name: "React" },
     { component: DiHtml5, name: "HTML" },
     { component: DiCss3, name: "CSS" },
@@ -19,15 +20,14 @@ const icons = [
     { component: SiJenkins, name: "Jenkins" },
     { component: DiMongodb, name: "MongoDB" },
     { component: DiMysql, name: "MySQL" },
-    { component: SiLinux, name: "Linux" },
-    { component: SiWireshark, name: "Wireshark" },
+    {component: SiKubernetes, name: "Kubernetes"}
 ];
 
 // eslint-disable-next-line react/prop-types
 const Education = ({ translations }) => {
-    const iconsRow1 = icons.slice(0, 5); // First 5 icons
-    const iconsRow2 = icons.slice(5, 10); // Next 5 icons
-    const iconsRow3 = icons.slice(10); // Remaining 5 icons
+    const iconsRow1 = icons.slice(0, 5);
+    const iconsRow2 = icons.slice(5, 10);
+    const iconsRow3 = icons.slice(10);
 
     return (
         <>
@@ -39,7 +39,7 @@ const Education = ({ translations }) => {
                 <div className="icon-row">
                     {iconsRow1.map((icon, index) => (
                         <div key={index} className="icon-container">
-                            <icon.component className="icon" />
+                            <icon.component className="icon"/>
                             <span className="icon-name">{icon.name}</span>
                         </div>
                     ))}
@@ -47,7 +47,7 @@ const Education = ({ translations }) => {
                 <div className="icon-row">
                     {iconsRow2.map((icon, index) => (
                         <div key={index} className="icon-container">
-                            <icon.component className="icon" />
+                            <icon.component className="icon"/>
                             <span className="icon-name">{icon.name}</span>
                         </div>
                     ))}
@@ -55,7 +55,7 @@ const Education = ({ translations }) => {
                 <div className="icon-row">
                     {iconsRow3.map((icon, index) => (
                         <div key={index} className="icon-container">
-                            <icon.component className="icon" />
+                            <icon.component className="icon"/>
                             <span className="icon-name">{icon.name}</span>
                         </div>
                     ))}
@@ -65,7 +65,7 @@ const Education = ({ translations }) => {
 
             <div className="degree-container">
                 <div className="degree-box">
-                    <img src={`./Metropolialogo.png`} alt="Degree Image" className="degree-image-metropolia" />
+                    <img src={`./Metropolialogo.png`} alt="Degree Image" className="degree-image-metropolia"/>
                     <h3 className="degree-title-metropolia">{translations.degreeTitleMetropolia}</h3>
                     <p className="degree-text">2022 - {translations.soon}</p>
                 </div>
