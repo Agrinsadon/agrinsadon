@@ -8,7 +8,6 @@
     text-align: center;
     margin-bottom: 2rem;
     margin-top: 7rem;
-    font-size: 35px;
 }
 
 .code-container {
@@ -47,7 +46,6 @@
     left: 50%;
     opacity: 0;
     transform: translateX(-48%);
-    font-size: 0.75rem;
     transition: opacity 0.3s ease-out;
     pointer-events: none;
 }
@@ -60,7 +58,6 @@
     text-align: center;
     margin-bottom: 2rem;
     margin-top: 5rem;
-    font-size: 35px;
 }
 
 .degree-container {
@@ -85,18 +82,12 @@
     height: auto;
 }
 
-.degree-title-omnia {
-    font-size: 21px;
-}
 
 .degree-title-metropolia {
-    font-size: 21px;
     margin-top: 0.68rem;
 }
 
-.degree-text {
-    font-size: 18px;
-}
+
 
 @media screen and (max-width: 992px) {
 
@@ -107,7 +98,6 @@
     .code-header {
         margin-top: 3rem;
         margin-bottom: 1rem;
-        font-size: 27px;
     }
 
     .icon-container {
@@ -118,14 +108,9 @@
         transform: translateY(-15px);
     }
 
-    .degree-text {
-        font-size: 19px;
-    }
-
     .degree-header {
         margin-bottom: 1.5rem;
         margin-top: 2rem;
-        font-size: 27px;
     }
 
     .degree-box {
@@ -141,7 +126,6 @@
     }
 
     .degree-title-omnia {
-        font-size: 19px;
         margin-left: 1rem;
         margin-right: 1rem;
     }
@@ -149,13 +133,9 @@
     .degree-title-metropolia {
         margin-left: 1rem;
         margin-right: 1rem;
-        font-size: 19px;
         margin-top: 0.6rem;
     }
 
-    .degree-text {
-        font-size: 18px;
-    }
 }
 
 

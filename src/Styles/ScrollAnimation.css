@@ -1,23 +1,24 @@
 @keyframes fadeInUp {
     from {
-        opacity: 0;
-        transform: translateY(20px);
+      opacity: 0;
+      transform: translateY(10vh); /* or 20px if you want smaller movement */
+      visibility: hidden;
     }
     to {
-        opacity: 1;
-        transform: translateY(0);
+      opacity: 1;
+      transform: translateY(0);
+      visibility: visible;
     }
-}
-
-.hidden {
+  }
+  
+  .hidden {
     opacity: 0;
-}
-
-.animated {
-    animation: fadeInUp 2s ease forwards;
-}
-@media screen and (max-width: 992px) {
-    .animated {
-        animation: fadeInUp 2s ease forwards;
-    }
-}
+    transform: translateY(10vh); /* same as starting animation state */
+    visibility: hidden;
+    will-change: opacity, transform, visibility;
+  }
+  
+  .animated {
+    animation: fadeInUp 1s ease-out forwards;
+  }
+  

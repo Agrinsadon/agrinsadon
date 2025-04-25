@@ -3,8 +3,7 @@ import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
-import { formatDescription } from '../../Components/formatText.jsx';
-import '../Styles/Project.css';
+import './Project.css';
 
 // eslint-disable-next-line react/prop-types
 const Project = ({ translations }) => {
@@ -20,7 +19,7 @@ const Project = ({ translations }) => {
                     <div key={index} className="project-card">
                         <h3 className="project-name">{project.name}</h3>
                         <p className="project-description">
-                            {formatDescription(project.description)}
+                            {project.description}
                         </p>
                         <div className="project-links">
                             {project.links.map((link, linkIndex) => (
