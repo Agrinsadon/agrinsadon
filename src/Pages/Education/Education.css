@@ -1,4 +1,3 @@
-{/* Education Section */}
 .education-header {
     text-align: left;
     margin-left: 2rem;
@@ -57,7 +56,6 @@
     opacity: 1;
 }
 
-{/* Degree Section */}
 .degree-header {
     text-align: center;
     margin-bottom: 2rem;
@@ -102,7 +100,6 @@
 
 @media screen and (max-width: 992px) {
 
-{/* Education Section */}
     .education-header {
         margin-bottom: 0;
     }
@@ -125,7 +122,6 @@
         font-size: 19px;
     }
 
-    {/* Degree Section */}
     .degree-header {
         margin-bottom: 1.5rem;
         margin-top: 2rem;

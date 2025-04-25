@@ -3,7 +3,7 @@ import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
-import { formatDescription } from '../Components/formatText.jsx';
+import { formatDescription } from '../../Components/formatText.jsx';
 import '../Styles/Project.css';
 
 // eslint-disable-next-line react/prop-types

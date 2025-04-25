@@ -2,11 +2,11 @@
 import React, { useState } from 'react';
 import { Analytics } from "@vercel/analytics/react";
 import { Element } from 'react-scroll';
-import Home from './Pages/Home';
-import About from './Pages/About';
-import Education from './Pages/Education';
-import Experience from './Pages/Experience';
-import Project from './Pages/Project';
+import Home from './Pages/LandingPage/Home';
+import About from './Pages/AboutMe/About';
+import Education from './Pages/Education/Education';
+import Experience from './Pages/Experience/Experience';
+import Project from './Pages/Projects/Project';
 import ScrollAnimation from './Components/ScrollAnimation';
 import fiTranslations from './Translation/FIN.json';
 

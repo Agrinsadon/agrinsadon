@@ -1,8 +1,8 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useState } from 'react';
-import Navbar from "../Components/Navbar.jsx";
+import Navbar from "../../Components/Navbar.jsx";
 import '../Styles/Home.css';
-import fiTranslations from '../Translation/FIN.json';
+import fiTranslations from '../../Translation/FIN.json';
 import { FaGithub, FaEnvelope, FaLinkedin } from 'react-icons/fa';
 
 // eslint-disable-next-line react/prop-types

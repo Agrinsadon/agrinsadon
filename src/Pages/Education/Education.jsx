@@ -3,7 +3,7 @@ import React from "react";
 import { FaReact, FaNodeJs, FaDocker, FaPython, FaJava, FaGit } from "react-icons/fa";
 import { DiJavascript1, DiCss3, DiHtml5, DiMongodb, DiMysql } from "react-icons/di";
 import {SiGo, SiJenkins, SiKubernetes, SiTypescript} from "react-icons/si";
-import '../Styles/Education.css';
+import './Education.css';
 
 const icons = [
     { component: DiJavascript1, name: "JavaScript" },
