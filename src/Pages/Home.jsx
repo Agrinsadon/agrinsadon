@@ -4,7 +4,6 @@ import Navbar from "../Components/Navbar.jsx";
 import '../Styles/Home.css';
 import fiTranslations from '../Translation/FIN.json';
 import { FaGithub, FaEnvelope, FaLinkedin } from 'react-icons/fa';
-import TextEncrypt from "../Components/TextEncrypt.jsx";
 
 // eslint-disable-next-line react/prop-types
 const Home = ({ onTranslationsChange }) => {
@@ -22,9 +21,7 @@ const Home = ({ onTranslationsChange }) => {
             <div className="LandingPage">
                 <h1>Agrin Sadon</h1>
                 <hr />
-                <TextEncrypt>
-                    <h2>{translations.title}</h2>
-                </TextEncrypt>
+                <h2>{translations.title}</h2>
                 <div className="home-icon-container">
                     <a href="https://github.com/agrinsadon" target="_blank" rel="noopener noreferrer">
                         <FaGithub className="home-icon"/>
