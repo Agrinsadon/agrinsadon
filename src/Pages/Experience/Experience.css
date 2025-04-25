@@ -28,17 +28,17 @@
     overflow: hidden;
     margin-bottom: 1.5rem;
     margin-left: 3rem;
-    color: #023020;
-    background-color: #f5f5dc;
+    box-shadow: 2px 4px 12px #00000014;
+    background-color: #ffffff;
     flex: 0 0 auto;
     width: 350px;
     height: 400px;
     margin-right: 15px;
     padding: 20px;
-    border-radius: 20px;
+    white-space: normal;
+    border-radius: 18px;
     display: flex;
     flex-direction: column;
-    box-sizing: border-box;
 }
 
 .box-date, .box-title, .box-company, .box-text {

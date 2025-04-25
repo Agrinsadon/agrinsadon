@@ -70,7 +70,7 @@ const Navbar = ({ onTranslationsChange }) => {
         <div className="screen">
             <div className="navbar">
                 <div className="logo" onClick={scrollToTop}>
-                    A . S
+                    Agrin Sadon
                 </div>
 
                 <div className={`nav-links ${showLinks ? 'show' : ''}`}>
