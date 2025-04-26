@@ -3,7 +3,7 @@ import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { faFolder } from '@fortawesome/free-regular-svg-icons';
-import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'; // Added faFolder here
+import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
 import './Project.css';
 
 // eslint-disable-next-line react/prop-types
@@ -11,8 +11,7 @@ const Project = ({ translations }) => {
     return (
         <div className="page-content">
             <h3 className="project-header">{translations.projectHeader}</h3>
-            <h1 className="project-title">{translations.projectTitle}</h1>
-            <ul className="project-grid">
+            <div className="project-grid">
                 {translations.projectsCards.map((project, index) => (
                     <div key={index} className="project-card">
                         <div className="project-header-container">
@@ -20,11 +19,10 @@ const Project = ({ translations }) => {
                             <div className="project-links">
                                 {project.links.map((link, linkIndex) => (
                                     <a key={linkIndex} href={link.href} target="_blank" rel="noopener noreferrer">
-                                        {/* Conditional rendering of icons */}
                                         {link.icon === 'faGithub' ? <FontAwesomeIcon icon={faGithub} /> :
-                                            link.icon === 'faYoutube' ? <FontAwesomeIcon icon={faYoutube} /> :
-                                                link.icon === 'faExternalLinkAlt' ? <FontAwesomeIcon icon={faExternalLinkAlt} /> :
-                                                    null}
+                                         link.icon === 'faYoutube' ? <FontAwesomeIcon icon={faYoutube} /> :
+                                         link.icon === 'faExternalLinkAlt' ? <FontAwesomeIcon icon={faExternalLinkAlt} /> :
+                                         null}
                                     </a>
                                 ))}
                             </div>
@@ -36,7 +34,7 @@ const Project = ({ translations }) => {
                         </div>
                     </div>
                 ))}
-            </ul>
+            </div>
         </div>
     );
 };

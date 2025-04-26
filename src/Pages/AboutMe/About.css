@@ -3,10 +3,9 @@
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    padding: 20px;
+    padding: 100px 0 0 0;
     width: auto;
     height: auto;
-    margin: 12rem 10rem;
 }
 
 .image-container {
