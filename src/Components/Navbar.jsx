@@ -110,7 +110,7 @@ const Navbar = ({ onTranslationsChange }) => {
                         className={activeSection === 'projects' ? 'active' : ''}
                         spy={true}
                         onSetActive={handleSetActive}
-                        offset={screenWidth < 768 ? -80 : -50}
+                        offset={screenWidth < 768 ? 150 : 65}
                     >
                         {translations.projects}
                         <FontAwesomeIcon icon={faLaptopCode} className="fa-icon"/>

@@ -10,7 +10,7 @@ import './Project.css';
 const Project = ({ translations }) => {
     return (
         <div className="page-content">
-            <h3 className="project-header">{translations.projectHeader}</h3>
+            <h2 className="project-header">{translations.projectHeader}</h2>
             <div className="project-grid">
                 {translations.projectsCards.map((project, index) => (
                     <div key={index} className="project-card">

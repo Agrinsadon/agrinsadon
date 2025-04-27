@@ -8,26 +8,27 @@
 .project-header {
     text-align: left;
     margin-bottom: 3rem;
-    font-size: 48px;
 }
 
 .project-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 10px;
+    gap: 15px;
+    position: relative;
 }
 
 .project-card {
-    background-color: #ffffff;
+    background-color: #112240;
     border-radius: 16px;
     cursor: default;
     flex-direction: column;
     padding: 2rem 1.75rem;
     min-height: 300px;
+    position: relative;
 }
 
 .project-card:hover {
-    background-color: var(--lightest-navy);
+    background-color: #223351;
     transform: translateY(-7px);
 }
 
@@ -41,18 +42,21 @@
 
 .project-name {
     margin-bottom: 0.75rem;
-    font-size: 24px;
+    font-size: 23px;
+    font-weight: 700;
     margin-top: 0;
 }
 
 .project-description {
     font-size: 18px;
+    color: #8892b0;
     margin: 0;
     padding: 0 0 40px 0;
 }
 
 .project-techstack {
     font-size: 16px;
+    color: #8892b0;
     margin: 0;
     padding-bottom: 0;
 }
@@ -62,11 +66,11 @@
 }
 
 .folder-icon {
-    color: black;
+    color: #64ffda;
 }
 
 .project-links a {
-    color: black;
+    color: #ccd6f6;
 }
 .project-links {
     gap: 0.8rem;

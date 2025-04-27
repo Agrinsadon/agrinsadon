@@ -57,7 +57,7 @@ const LanguageSwitcher = ({ currentLanguage, setCurrentLanguage, setTranslations
     }, [switchLanguage]);
 
     return (
-        <div key={refreshKey} className="language-selector"> {/* Key prop for "refresh" effect */}
+        <div key={refreshKey} className="language-selector">
             {getFlag(currentLanguage)}
             <FontAwesomeIcon
                 className="arrowlanguage"
