@@ -14,9 +14,10 @@ const Project = ({ translations }) => {
             <h2 className="project-header">{translations.projectHeader}</h2>
             <ImageCarousel images={[
             "menstyle.png",
-            "menstyle.png",
-            "menstyle.png"
-            ]} project={translations.projectsCards[0]} />
+            "Ecoplug.png",
+            "Tuutorikeskus.png",
+            "Sahkodominus.png"
+            ]} projects={translations.projectsCards} />
             <div className="project-grid">
                 {translations.projectsCards.map((project, index) => (
                     <div key={index} className="project-card">

@@ -6,13 +6,13 @@ import '../Pages/Projects/Project.css';
 import '../Styles/ImageCarousel.css';
 
 // eslint-disable-next-line react/prop-types
-const ImageCarousel = ({ images, translations, project }) => {
+const ImageCarousel = ({ images, translations, projects }) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   useEffect(() => {
     const intervalId = setInterval(() => {
-      setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 10000);
+      setCurrentImageIndex((prevIndex) => (prevIndex + 1) % projects.length);
+    }, 30000);
 
     return () => clearInterval(intervalId); // Cleanup interval on unmount
   }, [images.length]);
@@ -21,6 +21,8 @@ const ImageCarousel = ({ images, translations, project }) => {
     setCurrentImageIndex(index);
   };
 
+  const currentProject = projects[currentImageIndex];
+
   return (
     <div className="image-carousel-container">
       <img
@@ -28,10 +30,10 @@ const ImageCarousel = ({ images, translations, project }) => {
         alt={`Slide ${currentImageIndex + 1}`}
         className="carousel-image"
       />
-          <button className="carousel-button carousel-button-left" onClick={() => goToImage(currentImageIndex - 1 < 0 ? images.length - 1 : currentImageIndex - 1)}>&#10094;</button>
-          <button className="carousel-button carousel-button-right" onClick={() => goToImage((currentImageIndex + 1) % images.length)}>&#10095;</button>
+          <button className="carousel-button carousel-button-left" onClick={() => goToImage(currentImageIndex - 1 < 0 ? projects.length - 1 : currentImageIndex - 1)}>&#10094;</button>
+          <button className="carousel-button carousel-button-right" onClick={() => goToImage((currentImageIndex + 1) % projects.length)}>&#10095;</button>
           <div className="carousel-indicators">
-          {images.map((_, index) => (
+          {projects.map((_, index) => (
             <span
               key={index}
               className={`indicator ${index === currentImageIndex ? 'active' : ''}`}
@@ -41,11 +43,11 @@ const ImageCarousel = ({ images, translations, project }) => {
           ))}
         </div>
         <div className="carousel-content">
-        <h3 className="project-name">{project.name}</h3>
-        <p className="project-description">{project.description}</p>
-        <p className="project-techstack">{project.techstack}</p>
-          <div className="project-links">
-            {project.links.map((link, linkIndex) => (
+        <h3 className="project-name-screen">{currentProject.name}</h3>
+        <p className="project-description-screen">{currentProject.description}</p>
+        <p className="project-techstack-screen">{currentProject.techstack}</p>
+          <div className="project-links-screen">
+            {currentProject.links.map((link, linkIndex) => (
                 <a key={linkIndex} href={link.href} target="_blank" rel="noopener noreferrer">
                     {link.icon === 'faGithub' ? <FontAwesomeIcon icon={faGithub} /> :
                      link.icon === 'faYoutube' ? <FontAwesomeIcon icon={faYoutube} /> :

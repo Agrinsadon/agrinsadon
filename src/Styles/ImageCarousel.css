@@ -1,21 +1,21 @@
 .image-carousel-container {
   width: 100%;
-  max-width: 1000px;
   margin: 0 auto;
   position: relative;
   padding-bottom: 3rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
+
 .carousel-image {
+  height: 550px;
   object-fit: cover;
   opacity: 0.3;
   width: 100%;
-  height: auto;
   border-radius: 8px;
   display: block;
   box-shadow: 0 4px 8px 0 #0003, 0 6px 20px 0 #00000030;
-  transition: transform .6s ease-in-out;
+  transition: transform 0.6s ease-in-out;
 }
 
 .carousel-indicators {
@@ -75,4 +75,32 @@
   transform: translateX(-50%);
   text-align: center;
   color: #ccd6f6;
+}
+
+.project-name-screen {
+  color: #ccd6f6;
+  margin-bottom: 0.5rem;
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 0;
+}
+
+.project-description-screen {
+  font-size: 17px;
+  color: #ccd6f6;
+  margin: 0;
+  padding-bottom: 0.5rem;
+}
+
+.project-techstack-screen{
+  font-size: 15px;
+  color: #64ffda;
+  margin: 0;
+  padding-bottom: 1rem;
+}
+
+.project-links-screen a {
+  margin: 0.5rem;
+  color: #ccd6f6;
+  font-size: 20px;
 }
