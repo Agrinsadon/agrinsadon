@@ -130,6 +130,20 @@ const Navbar = ({ onTranslationsChange }) => {
                         <FontAwesomeIcon icon={faUserGraduate} className="fa-icon"/>
                     </ScrollLink>
 
+                    <ScrollLink
+                        to="projects"
+                        smooth={true}
+                        duration={500}
+                        onClick={handleLinkClick}
+                        className={activeSection === 'projects' ? 'active' : ''}
+                        spy={true}
+                        onSetActive={handleSetActive}
+                        offset={screenWidth < 768 ? 150 : 65}
+                    >
+                        {translations.projects}
+                        <FontAwesomeIcon icon={faLaptopCode} className="fa-icon"/>
+                    </ScrollLink>
+
                     <LanguageSwitcher
                         currentLanguage={currentLanguage}
                         setCurrentLanguage={setCurrentLanguage}

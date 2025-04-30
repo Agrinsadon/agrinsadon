@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { faFolder } from '@fortawesome/free-regular-svg-icons';
 import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
+import ImageCarousel from '../../Components/ImageCarousel';
 import './Project.css';
 
 // eslint-disable-next-line react/prop-types
@@ -11,6 +12,11 @@ const Project = ({ translations }) => {
     return (
         <div className="page-content">
             <h2 className="project-header">{translations.projectHeader}</h2>
+            <ImageCarousel images={[
+            "menstyle.png",
+            "menstyle.png",
+            "menstyle.png"
+            ]} />
             <div className="project-grid">
                 {translations.projectsCards.map((project, index) => (
                     <div key={index} className="project-card">
