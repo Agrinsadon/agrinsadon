@@ -16,7 +16,7 @@ const Project = ({ translations }) => {
             "menstyle.png",
             "menstyle.png",
             "menstyle.png"
-            ]} />
+            ]} project={translations.projectsCards[0]} />
             <div className="project-grid">
                 {translations.projectsCards.map((project, index) => (
                     <div key={index} className="project-card">

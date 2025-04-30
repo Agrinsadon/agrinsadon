@@ -1,8 +1,12 @@
 import React, { useState, useEffect } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
+import '../Pages/Projects/Project.css';
 import '../Styles/ImageCarousel.css';
 
 // eslint-disable-next-line react/prop-types
-const ImageCarousel = ({ images }) => {
+const ImageCarousel = ({ images, translations, project }) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   useEffect(() => {
@@ -33,18 +37,22 @@ const ImageCarousel = ({ images }) => {
               className={`indicator ${index === currentImageIndex ? 'active' : ''}`}
               onClick={() => goToImage(index)}
             >
-              &#9679; {/* This is a filled circle character */}
             </span>
           ))}
         </div>
         <div className="carousel-content">
-          <h2>Header</h2>
-          <p>Some text below the header</p>
-          <p>Another text below the small text</p>
+        <h3 className="project-name">{project.name}</h3>
+        <p className="project-description">{project.description}</p>
+        <p className="project-techstack">{project.techstack}</p>
           <div className="project-links">
-            {/* Example links, replace with actual project data */}
-            <a href="#" target="_blank" rel="noopener noreferrer">Link 1</a>
-            <a href="#" target="_blank" rel="noopener noreferrer">Link 2</a>
+            {project.links.map((link, linkIndex) => (
+                <a key={linkIndex} href={link.href} target="_blank" rel="noopener noreferrer">
+                    {link.icon === 'faGithub' ? <FontAwesomeIcon icon={faGithub} /> :
+                     link.icon === 'faYoutube' ? <FontAwesomeIcon icon={faYoutube} /> :
+                     link.icon === 'faExternalLinkAlt' ? <FontAwesomeIcon icon={faExternalLinkAlt} /> :
+                     null}
+                </a>
+            ))}
           </div>
         </div>
     </div>
