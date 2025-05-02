@@ -32,9 +32,8 @@ const Education = ({ translations }) => {
     return (
         <div className="page-content">
             {/* eslint-disable-next-line react/prop-types */}
-            <h3 className="education-header">{translations.educationHeader}</h3>
+            <h2 className="container-header">{translations.educationHeader}</h2>
             {/* eslint-disable-next-line react/prop-types */}
-            <h2 className="code-header">{translations.codeEducation}</h2>
             <div className="code-container">
                 <div className="icon-row">
                     {iconsRow1.map((icon, index) => (

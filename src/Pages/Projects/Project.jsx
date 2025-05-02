@@ -11,7 +11,7 @@ import './Project.css';
 const Project = ({ translations }) => {
     return (
         <div className="page-content">
-            <h2 className="project-header">{translations.projectHeader}</h2>
+            <h2 className="container-header">{translations.projectHeader}</h2>
             <ImageCarousel images={[
             "menstyle.png",
             "Ecoplug.png",

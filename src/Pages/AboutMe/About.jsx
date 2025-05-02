@@ -6,8 +6,8 @@ import './About.css';
 const About = ({ translations }) => {
     return (
         <>
-            <div className="about-container page-content"> {/* Added page-content class */}
-            <h3 className="about-header">{translations.aboutHeader}</h3>
+            <div className="page-content"> {/* Added page-content class */}
+            <h2 className="container-header">{translations.aboutHeader}</h2>
                 <div className="image-container">
                     <img src={`/Profile-transformed.jpeg`} alt="Profile" className="profile-image"/>
                 </div>

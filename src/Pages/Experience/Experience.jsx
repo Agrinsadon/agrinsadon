@@ -1,26 +1,33 @@
-
 // eslint-disable-next-line no-unused-vars
-import React from 'react';
+import React, { useState } from 'react';
 import './Experience.css';
 
 // eslint-disable-next-line react/prop-types
 const Experience = ({ translations }) => {
+    const [selectedIndex, setSelectedIndex] = useState(0);
+    const selectedBox = translations.experienceBoxes[selectedIndex];
+
     return (
-        <div className="page-content"> {/* Added page-content wrapper */}
-            {/* eslint-disable-next-line react/prop-types */}
-            <h3 className="experience-header">{translations.experienceHeader}</h3>
-            {/* eslint-disable-next-line react/prop-types */}
-            <h1 className="experience-title">{translations.experienceTitle}</h1>
-            <div className="box-container">
-                {/* eslint-disable-next-line react/prop-types */}
-                {translations.experienceBoxes.map((box, index) => (
-                    <div className="box" key={index}>
-                        <h2 className="box-date">{box.date}</h2>
-                        <h1 className="box-title">{box.title}</h1>
-                        <h3 className="box-company">{box.company}</h3>
-                        <p className="box-text">{box.text}</p>
-                    </div>
-                ))}
+        <div className="page-content">
+            <h2 className="container-header">{translations.experienceHeader}</h2>
+            <div className="experience-wrapper">
+                <div className="experience-sidebar">
+                    {translations.experienceBoxes.map((box, index) => (
+                        <button
+                            key={index}
+                            className={`experience-tab ${selectedIndex === index ? 'active' : ''}`}
+                            onClick={() => setSelectedIndex(index)}
+                        >
+                            {box.company.toUpperCase()}
+                        </button>
+                    ))}
+                </div>
+
+                <div className="experience-details">
+                    <h1 className="box-title">{selectedBox.title}</h1>
+                    <h2 className="box-date">{selectedBox.date}</h2>
+                    <p className="box-text">{selectedBox.text}</p>
+                </div>
             </div>
         </div>
     );

@@ -1,98 +1,63 @@
-.page-content {
-  margin: auto;
-  max-width: 1000px;
-  min-height: 50vh;
-  padding: 100px 0 0 0;
-}
-
-.experience-header {
-    text-align: left;
-    margin-left: 2rem;
-
-}
-
-.experience-title {
-    margin-left: 3rem;
-    margin-top: 9rem;
-}
-
-.box-container {
-    margin-top: 2rem;
-    margin-bottom: 12rem;
+.experience-wrapper {
     display: flex;
-    overflow-x: auto;
-    max-width: 100%;
-    white-space: nowrap;
-    scrollbar-width: none;
-    -ms-overflow-style: none;
-}
+    color: #ccd6f6;
+    margin-top: 2rem;
+  }
 
-.box-container::-webkit-scrollbar {
-    display: none;
-}
-
-.box {
-    overflow: hidden;
-    margin-bottom: 1.5rem;
-    margin-left: 3rem;
-    box-shadow: 2px 4px 12px #00000014;
-    background-color: #ffffff;
-    flex: 0 0 auto;
-    width: 350px;
-    height: 400px;
-    margin-right: 15px;
-    padding: 20px;
-    white-space: normal;
-    border-radius: 18px;
+  .experience-sidebar {
+    width: 250px;
+    padding: 1rem;
     display: flex;
     flex-direction: column;
-}
-
-.box-date, .box-title, .box-company, .box-text {
-    margin-left: 10px;
-    margin-bottom: 0;
-}
-
-.box-text {
-    white-space: normal;
-}
-
-
-@media screen and (max-width: 992px) {
-    .experience-header {
-        margin-bottom: 0;
-        margin-top: 6rem;
-    }
-
-    .experience-title{
-        margin-left: 2rem;
-        margin-top: 3rem;
-        margin-bottom: 1.5rem;
-    }
-
-    .box-container {
-        display: flex;
-        margin-top: 0;
-        margin-bottom: 3.5rem;
-    }
-
-    .box-date, .box-title, .box-company, .box-text {
-        margin-left: 5px;
-    }
-
-    .box {
-        margin-left: 2rem;
-        width: 300px;
-        height: 380px;
-        margin-right: 5px;
-    }
-
-    .box-date {
-        margin-top: 0.5rem;
-        margin-bottom: 1rem;
-    }
-
-    .box-company {
-        margin-top: 0.5rem;
-    }
-}
+    gap: 1.5rem;
+  }
+  
+  .experience-tab {
+    background: none;
+    border: none;
+    color: #8892b0;
+    text-align: left;
+    font-size: 14px;
+    cursor: pointer;
+    transition: color 0.2s ease;
+  }
+  
+  .experience-tab:hover {
+    color: #64ffda;
+  }
+  
+  .experience-tab.active {
+    color: #64ffda;
+    font-weight: bold;
+  }
+  
+  .experience-details {
+    flex-grow: 1;
+    padding: 0.2rem;
+  }
+  
+  .box-date {
+    font-size: 14px;
+    color: #8892b0;
+    margin-bottom: 0.5rem;
+  }
+  
+  .box-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0.2rem 0;
+    color: white;
+  }
+  
+  .box-company {
+    font-size: 16px;
+    margin-bottom: 1rem;
+    color: #64ffda;
+  }
+  
+  .box-text {
+    font-size: 15px;
+    color: #a8b2d1;
+    line-height: 1.6;
+  }
+  
