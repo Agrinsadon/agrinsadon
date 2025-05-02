@@ -24,9 +24,7 @@ const App = () => {
             </Element>
 
             <Element name="experience" className="Experience">
-                <ScrollAnimation>
                     <Experience translations={translations} />
-                </ScrollAnimation>
             </Element>
 
             <Element name="projects" className="Projects">

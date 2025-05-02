@@ -1,6 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useState } from 'react';
 import './Experience.css';
+import ScrollAnimation from '../../Components/ScrollAnimation';
 
 // eslint-disable-next-line react/prop-types
 const Experience = ({ translations }) => {
@@ -26,7 +27,9 @@ const Experience = ({ translations }) => {
                 <div className="experience-details">
                     <h1 className="box-title">{selectedBox.title}</h1>
                     <h2 className="box-date">{selectedBox.date}</h2>
-                    <p className="box-text">{selectedBox.text}</p>
+                    <ScrollAnimation key={selectedBox.text}>
+                        <p className="box-text">{selectedBox.text}</p>
+                    </ScrollAnimation>
                 </div>
             </div>
         </div>

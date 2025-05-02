@@ -5,14 +5,13 @@
   }
 
   .experience-sidebar {
-    width: 250px;
-    padding: 1rem;
+    min-width: 220px;
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
   }
   
   .experience-tab {
+    padding: 0.7rem 1rem;
     background: none;
     border: none;
     color: #8892b0;
@@ -28,12 +27,12 @@
   
   .experience-tab.active {
     color: #64ffda;
-    font-weight: bold;
+    border-right: #64ffda 2px solid;
   }
   
   .experience-details {
     flex-grow: 1;
-    padding: 0.2rem;
+    padding-left: 2.5rem;
   }
   
   .box-date {
@@ -46,7 +45,6 @@
     font-size: 24px;
     font-weight: bold;
     margin: 0.2rem 0;
-    color: white;
   }
   
   .box-company {
@@ -57,7 +55,6 @@
   
   .box-text {
     font-size: 15px;
-    color: #a8b2d1;
     line-height: 1.6;
   }
   
