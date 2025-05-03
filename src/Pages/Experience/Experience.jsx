@@ -26,7 +26,7 @@ const Experience = ({ translations }) => {
 
                 <div className="experience-details">
                     <h1 className="box-title">{selectedBox.title}</h1>
-                    <h2 className="box-date">{selectedBox.date}</h2>
+                    <p className="box-date">{selectedBox.date}</p>
                     <ScrollAnimation key={selectedBox.text}>
                         <p className="box-text">{selectedBox.text}</p>
                     </ScrollAnimation>

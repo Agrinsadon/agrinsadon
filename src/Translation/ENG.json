@@ -11,8 +11,8 @@
     "experienceBoxes": [
         {
             "date": "2023 - Ongoing",
-            "title": "Full-Stack Developer",
-            "company": "Agrin Sadon",
+            "title": "Software Developer",
+            "company": "Freelance",
             "text": "I work independently on websites and web applications. I am responsible for both front-end and back-end development, and I handle project planning, technical implementation, and client collaboration."
         },
         {
@@ -20,30 +20,6 @@
             "title": "Processing Operator",
             "company": "Murata Electronics Oy",
             "text": "I was responsible for inspecting and repairing electronic components. Workdays lasted 12 hours and I needed to stay alert and focused to ensure that the final products were flawless and of high quality."
-        },
-        {
-            "date": "2021 - 2022",
-            "title": "Assistant ( PCR )",
-            "company": "Terveystalo",
-            "text": "As a COVID-19 testing assistant, I conducted daily tests for 100-200 people. My work involved handling samples and preparing them for further processing, as well as assisting nurses in conducting COVID-19 tests."
-        },
-        {
-            "date": "2021 - 2022",
-            "title": "Receptionist",
-            "company": "Espoon Kaupunki",
-            "text": "I assisted approximately 200-400 people daily in performing COVID-19 vaccinations. My duties included assisting customers, ensuring their well-being and making sure they felt comfortable."
-        },
-        {
-            "date": "2019",
-            "title": "Warehouse Worker",
-            "company": "Kesko Oyj",
-            "text": "My duties included picking frozen goods according to customer orders, ensuring accuracy and timely delivery. I also maintained order in the department and in the warehouse."
-        },
-        {
-            "date": "2018",
-            "title": "Mailing and Enveloping",
-            "company": "PostNord Oy",
-            "text": "My duties included sorting letters and packages, opening envelopes, sealing them, and preparing mail for dispatch."
         }
     ],
     "projectHeader": "/ projects",
