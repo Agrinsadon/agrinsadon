@@ -62,7 +62,7 @@ const LanguageSwitcher = ({ currentLanguage, setCurrentLanguage, setTranslations
             <FontAwesomeIcon
                 className="arrowlanguage"
                 icon={faChevronDown}
-                style={{ transform: `rotate(${languageArrowRotation}deg)`, transition: 'transform 0.3s ease-in-out' }}
+                style={{ transform: `rotate(${languageArrowRotation}deg)`, transition: 'transform 0.3s ease-in-out', marginBottom: '7px' }}
                 onClick={toggleLanguageDropdown}
             />
             <div className={`language-dropdown ${showLanguageDropdown ? 'show' : ''}`}>
