@@ -13,6 +13,7 @@ const Navbar = ({ onTranslationsChange }) => {
 
     const handleLinkClick = () => {
         setShowLinks(false);
+        setActiveSection('');
         document.body.classList.remove('no-scroll');
     };
 
@@ -66,7 +67,10 @@ const Navbar = ({ onTranslationsChange }) => {
                             to="about"
                             smooth={true}
                             duration={500}
-                            onClick={handleLinkClick}
+                            onClick={(e) => {
+                                handleLinkClick();
+                                e.currentTarget.blur(); // removes focus state after click
+                            }}
                             className={activeSection === 'about' ? 'active' : ''}
                             spy={true}
                             onSetActive={handleSetActive}
@@ -79,7 +83,10 @@ const Navbar = ({ onTranslationsChange }) => {
                             to="experience"
                             smooth={true}
                             duration={500}
-                            onClick={handleLinkClick}
+                            onClick={(e) => {
+                                handleLinkClick();
+                                e.currentTarget.blur(); // removes focus state after click
+                            }}
                             className={activeSection === 'experience' ? 'active' : ''}
                             spy={true}
                             onSetActive={handleSetActive}
@@ -92,7 +99,10 @@ const Navbar = ({ onTranslationsChange }) => {
                             to="projects"
                             smooth={true}
                             duration={500}
-                            onClick={handleLinkClick}
+                            onClick={(e) => {
+                                handleLinkClick();
+                                e.currentTarget.blur(); // removes focus state after click
+                            }}                            
                             className={activeSection === 'projects' ? 'active' : ''}
                             spy={true}
                             onSetActive={handleSetActive}
@@ -105,7 +115,10 @@ const Navbar = ({ onTranslationsChange }) => {
                             to="education"
                             smooth={true}
                             duration={500}
-                            onClick={handleLinkClick}
+                            onClick={(e) => {
+                                handleLinkClick();
+                                e.currentTarget.blur(); // removes focus state after click
+                            }}                            
                             className={activeSection === 'education' ? 'active' : ''}
                             spy={true}
                             onSetActive={handleSetActive}

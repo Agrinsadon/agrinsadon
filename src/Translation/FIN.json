@@ -4,9 +4,8 @@
     "projects": "Projektit",
     "education": "Koulutus",
     "title": "Ohjelmistoinsinööri",
-    "aboutHeader": "01. Minusta",
-    "aboutTitle": "Hei Olen Agrin!",
-    "aboutDescription": "Olen opiskelija, joka on juuri valmistautumassa ohjelmistotuotannon insinöörin uralle. Valmistaudun ottamaan vastaan haastavia tehtäviä ja etsimään mahdollisuuksia kehittää taitojani niin nykyisissä tehtävissä kuin uusilla alueilla. Olen erityisen ylpeä vahvasta työetiikastani, joka ilmenee sitoutumisena laadukkaan työn tuottamiseen. Luonteeltani olen rauhallinen ongelmanratkaisija ja uskon, että parhaat ratkaisut syntyvät yhteistyön ja avoimen viestinnän kautta.",
+    "aboutHeader": "/ minusta",
+    "aboutDescription": "Opiskelen tällä hetkellä ohjelmisto insinööriksi Metropoliassa ja suoritan kandidaatin tutkintoa. Samalla työskentelen freelance-ohjelmistokehittäjänä ja toteutan verkkosivustoja sekä sovelluksia.\n\nTässä ovat tärkeimmät teknologiat, joiden parissa olen työskennellyt:",
     "experienceHeader": "/ kokemus",
     "experienceBoxes": [
         {
@@ -26,7 +25,7 @@
     "projectsCards": [
         {
             "name": "MenStyle",
-            "description": "JATKUVA PROJEKTI\n \nMen Style on verkkosivusto parturiketjulle Suomessa, jolla on 9 toimipistettä ympäri maata.",
+            "description": "JATKUVA PROJEKTI - \n \nVerkkosivusto parturiketjulle Suomessa, jolla on 9 toimipistettä ympäri maata.",
             "techstack": "React, Next.js, TypeScript, Node.js, AWS, CSS",
             "links": [
                 { "href": "https://menstyle.vercel.app/", "icon": "faExternalLinkAlt" }
@@ -34,7 +33,7 @@
         },
         {
             "name": "EcoPlug",
-            "description": "Ecoplug on mobiilisovellus, joka auttaa käyttäjiä löytämään vapaat sähköautojen latauspisteet Uudellamaalla.",
+            "description": "Mobiilisovellus, joka auttaa käyttäjiä löytämään vapaat sähköautojen latauspisteet Uudellamaalla.",
             "techstack": "React Native, Javascript, CSS, Node.js, Jenkins, Docker, MySQL",
             "links": [
                 { "href": "https://github.com/MuathOthman/EcoPlugMobileApp", "icon": "faGithub" },
@@ -43,7 +42,7 @@
         },
         {
             "name": "Tuutorikeskus",
-            "description": "Tuutorikeskus on verkkosivusto joka opastaa ja tukee opiskelijoita valmistautumaan lääketieteen pääsykokeisiin Romaniassa.",
+            "description": "Verkkosivusto joka opastaa ja tukee opiskelijoita valmistautumaan lääketieteen pääsykokeisiin Romaniassa.",
             "techstack": "React, Javascript, Node.js, CSS",
             "links": [
                 { "href": "https://www.tuutorikeskus.com/", "icon": "faExternalLinkAlt" }
@@ -51,7 +50,7 @@
         },
         {
             "name": "Sähkö Dominus",
-            "description": "Sähkö Dominus on verkkosivusto, joka tarjoaa ammattimaisia sähköasennus- ja korjauspalveluja.",
+            "description": "Verkkosivusto, joka tarjoaa ammattimaisia sähköasennus- ja korjauspalveluja.",
             "techstack": "React, Javascript, Node.js, CSS",
             "links": [
                 { "href": "https://www.sahkodominus.com/", "icon": "faExternalLinkAlt" }
