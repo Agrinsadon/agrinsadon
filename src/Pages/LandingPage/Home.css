@@ -1,22 +1,9 @@
 .LandingPage{
-    height: auto;
-    width: auto;
-    margin: 21.5rem auto;
-    justify-content: center;
+    margin: auto;
     text-align: center;
-}
-
-.LandingPage h1 {
-    margin: 0;
-}
-
-.LandingPage hr {
-    width: 55%;
-    margin: 0 auto;
-}
-
-.LandingPage h2 {
-    margin-top: 1rem;
+    max-width: 1000px;
+    min-height: 90vh;
+    padding: 100px 0 0 0;
 }
 
 .home-icon-container {
@@ -26,8 +13,9 @@
     gap: 50px;
 }
 
+
 .home-icon {
-    color:  #0171e3;
+    color:  #ccd6f6;
     font-size: 24px;
     transition: color 0.3s ease;
 }
@@ -38,26 +26,5 @@
 
 
 @media screen and (max-width: 992px) {
-    .LandingPage {
-        padding-top: 16rem;
-        margin: auto auto;
-    }
-
-    .LandingPage hr {
-        width: 80%;
-        margin: 0 auto;
-    }
-
-    .home-icon-container {
-        margin: 0 auto;
-        display: flex;
-        justify-content: center;
-        gap: 40px;
-    }
-
-    .home-icon {
-        font-size: 21px;
-        transition: color 0.3s ease;
-    }
 }
 

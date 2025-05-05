@@ -1,7 +1,7 @@
 /* Container for centering content */
 .screen {
     margin: auto;
-    max-width: 1030px;
+    max-width: 1150px;
 }
 
 .navbar {
@@ -9,7 +9,7 @@
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-    padding: 0.6rem 0;
+    padding: 0.5rem 0 0 0;
     color: #ccd6f6;
     z-index: 9998;
 }
@@ -75,10 +75,6 @@
 
 .language-selector .language-option {
     cursor: pointer;
-}
-
-.language-selector .language-option:hover {
-    background-color: #333;
 }
 
 .language-flag {
