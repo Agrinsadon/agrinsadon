@@ -1,0 +1,19 @@
+.animated-title {
+    color: #ccd6f6;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  
+  .blinking-cursor {
+    animation: blink 1s step-start infinite;
+    color: #64ffda;
+    border-radius: 50px;
+    margin-left: 2px;
+  }
+  
+  @keyframes blink {
+    50% {
+      opacity: 0;
+    }
+  }
+  

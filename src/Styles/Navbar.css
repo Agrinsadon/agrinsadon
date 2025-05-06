@@ -90,9 +90,13 @@
 
 @media screen and (max-width: 600px) {
 .navbar {
-    justify-content: right;
-    align-items: right;
-    margin: 0 auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #0b192f;
+    justify-content: end;
+    align-items: center;
     padding: 0.5rem 0 0 0;
     color: #ccd6f6;
     z-index: 9998;

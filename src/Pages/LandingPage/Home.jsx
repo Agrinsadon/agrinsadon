@@ -3,6 +3,7 @@ import Navbar from "../../Components/Navbar.jsx";
 import fiTranslations from '../../Translation/FIN.json';
 import { FaGithub, FaEnvelope, FaLinkedin } from 'react-icons/fa';
 import PalmTree from '../../Components/PalmTree.jsx'; // No changes needed here
+import TypewriterTitle from '../../Components/Typewriter.jsx';
 import './Home.css';
 
 const Home = ({ onTranslationsChange }) => {
@@ -19,7 +20,7 @@ const Home = ({ onTranslationsChange }) => {
       <div className="LandingPage">
           <PalmTree />
         <div className="home-title">  
-        <h1>{translations.title}</h1>
+        <TypewriterTitle text={translations.title} />
         </div>
         <div className="home-description">
             <h2>{translations.subtitle}</h2>
