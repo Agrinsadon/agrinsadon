@@ -40,3 +40,24 @@
     margin: 0;
     padding-bottom: 10px;
   }
+
+  @media screen and (max-width: 600px) {
+    .degree-header {
+      margin-bottom: 1rem;
+      margin-top: 4rem;
+    }
+    
+    .degree-box {
+      margin-bottom: 2rem;
+    }
+  
+    .degree-title-omnia {
+      margin-top: 0.6rem;
+      margin-bottom: 0;
+    }
+
+    .degree-text {
+      margin: 0;
+      padding-bottom: 10px;
+    }
+  }

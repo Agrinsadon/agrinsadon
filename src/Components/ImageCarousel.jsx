@@ -30,7 +30,7 @@ const ImageCarousel = ({ images, projects }) => {
   const currentProject = projects[currentImageIndex];
 
   return (
-    <div className="image-carousel-container">
+    <div className="image-carousel image-carousel-container">
       <div
         className="carousel-wrapper"
         style={{ transform: `translateX(-${currentImageIndex * 100}%)` }}
