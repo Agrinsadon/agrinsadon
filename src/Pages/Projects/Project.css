@@ -1,10 +1,3 @@
-.page-content {
-    margin: auto;
-    max-width: 1000px;
-    min-height: 50vh;
-    padding: 100px 0 0 0;
-}
-
 .project-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -73,6 +66,25 @@
 }
 
 /* Responsive tweaks if you want */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
 
+.project-card {
+    min-height: 310px;
+}
+
+.project-name {
+    font-size: 21px;
+}
+
+.project-description {
+    font-size: 16px;
+}
+
+.project-techstack {
+    font-size: 14px;
+}
+
+.project-links, .folder-icon {
+    font-size: 20px;
+}
 }
