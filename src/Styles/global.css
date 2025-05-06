@@ -76,12 +76,6 @@ p {
   color: #ccd6f6;
 }
 
-@media (max-width: 992px) {
-  .scroll-to-top {
-    display: none !important;
-  }
-}
-
 .scroll-to-top {
   position: fixed;
   bottom: 25px;
@@ -120,15 +114,18 @@ p {
   animation: scroll-to-top-animation 0.5s ease-in-out;
 }
 
-/* Media query for screens with a maximum width of 600px */
 @media (max-width: 600px) {
 :root {
-  /* Adjust font sizes for smaller screens */
   --font-size-sm: 12px;
   --font-size-base: 14px;
   --font-size-md: 18px;
   --font-size-lg: 24px;
 }
+
+.scroll-to-top {
+  display: none !important;
+}
+
 .page-content {
   margin: auto 1rem;
   padding: 75px 0 0 0;
@@ -147,11 +144,13 @@ p {
 }
 
 h1 {
-  font-size: 46px;
+  font-size: 42px;
 }
 
 h2 {
-  font-size: 28px;
+  font-size: 22px;
+  padding-top: 0.5rem;
+  line-height: normal;
 }
 
 p {

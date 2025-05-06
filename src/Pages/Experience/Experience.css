@@ -91,13 +91,11 @@
   }
   
   .experience-details {
-    flex-grow: 1;
-    padding-left: 1rem;
+    padding-left: 0.5rem;
+    min-height: 40vh;
   }
-  
+
   .box-date {
-    font-size: var(--font-size-sm);
-    color: var(--color-text-secondary);
     margin-top: 1rem;
   }
 

@@ -16,7 +16,7 @@ const Sketch = (p5) => {
     p5.clear();
   
     p5.push();
-    const scaleFactor = 0.5;
+    const scaleFactor = window.innerWidth < 600 ? 0.4 : 0.5;
     p5.scale(scaleFactor);
   
     // Recenter the tree for the smaller canvas

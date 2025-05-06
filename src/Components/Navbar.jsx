@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Link as ScrollLink, Events, animateScroll as scroll, scrollSpy } from 'react-scroll';
+import { FaGithub, FaEnvelope, FaLinkedin } from 'react-icons/fa';
+
 import '../Styles/Navbar.css';
 import fiTranslations from '../Translation/FIN.json';
 import LanguageSwitcher from '../Translation/languageSwitcher';
@@ -17,13 +19,6 @@ const Navbar = ({ onTranslationsChange }) => {
         document.body.classList.remove('no-scroll');
     };
 
-    const scrollToTop = () => {
-        scroll.scrollToTop({
-            smooth: true,
-            duration: 500,
-        });
-    };
-
     useEffect(() => {
         onTranslationsChange(translations);
     }, [translations, onTranslationsChange]);
@@ -31,7 +26,7 @@ const Navbar = ({ onTranslationsChange }) => {
     useEffect(() => {
         const handleResize = () => {
             setScreenWidth(window.innerWidth);
-            if (window.innerWidth > 768) {
+            if (window.innerWidth > 600) {
                 setShowLinks(false);
                 document.body.classList.remove('no-scroll');
             }
@@ -59,7 +54,7 @@ const Navbar = ({ onTranslationsChange }) => {
         <div className="screen">
             <div className="navbar">
                 <div className="navbar-left">
-                    <div className="logo" onClick={scrollToTop}>
+                    <div className="logo">
                         <p>Agrin Sadon</p>
                     </div>
                     <div className={`nav-links ${showLinks ? 'show' : ''}`}>
@@ -130,6 +125,17 @@ const Navbar = ({ onTranslationsChange }) => {
                 </div>
 
                 <div className="navbar-right">
+                    <div className="icon-container-navbar">
+                        <a href="https://github.com/agrinsadon" target="_blank" rel="noopener noreferrer">
+                        <FaGithub className="home-icon-navbar"/>
+                        </a>
+                        <a href="https://www.linkedin.com/in/agrin-sadon-25724a265" target="_blank" rel="noopener noreferrer">
+                        <FaLinkedin className="home-icon-navbar"/>
+                        </a>
+                        <a href="mailto:sadon.code@gmail.com">
+                        <FaEnvelope className="home-icon-navbar"/>
+                        </a>
+                    </div>
                     <LanguageSwitcher
                         currentLanguage={currentLanguage}
                         setCurrentLanguage={setCurrentLanguage}

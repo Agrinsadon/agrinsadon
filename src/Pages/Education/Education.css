@@ -44,7 +44,7 @@
   @media screen and (max-width: 600px) {
     .degree-header {
       margin-bottom: 1rem;
-      margin-top: 4rem;
+      margin-top: 0rem;
     }
     
     .degree-box {
