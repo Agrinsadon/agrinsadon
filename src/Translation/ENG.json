@@ -3,8 +3,8 @@
     "experience": "Experience",
     "projects": "Projects",
     "education": "Education",
-    "title": "hi, agrin here.",
-    "subtitle": "i create stuff, one line at a time.",
+    "title": "Hi, Agrin here.",
+    "subtitle": "I create stuff, one line at a time.",
     "aboutHeader": "/ about Me",
     "aboutDescription": "I am currently a Software Engineering student at Metropolia, working toward my bachelor's degree. At the same time, I work as a freelance software developer, building websites and applications.\n\nHere are the most important technologies I have worked with:",
     "experienceHeader": "/ experience",
@@ -59,10 +59,36 @@
         }
     ],
 
-    "educationHeader": "04. Education",
-    "codeEducation": "Coding Skills",
-    "degreeHeader": "Degree's",
+    "educationHeader": "/ education",
+    "degreeHeader": "degree's",
     "degreeTitleMetropolia": "Information and communication technology engineer",
     "degreeTitleOmnia": "Electrical and automation",
-    "soon": "ONGOING"
+    "soon": "ONGOING",
+    "certificateHeader": "certificates",
+"certificates": [
+    {
+      "title": "AWS Academy Introduction to Cloud Semester 1",
+      "issuer": "Amazon Academy",
+      "text": "This course covered the fundamentals of cloud computing, including AWS cloud architecture, basic cloud services, and best practices for managing cloud infrastructure. Topics included EC2, S3, and VPC setup, as well as AWS security and cost management principles.",
+      "date": "Apr 2023"
+    },
+    {
+      "title": "Cisco Networking Academy",
+      "issuer": "Ethical Hacker",
+      "text": "In this course, I gained hands-on experience with ethical hacking techniques, including penetration testing, vulnerability assessments, and network security. Topics covered included system exploitation, cryptography, and the ethical implications of hacking.",
+      "date": "Apr 2025"
+    },
+    {
+      "title": "Cisco Networking Academy",
+      "issuer": "Networking Essentials",
+      "text": "This course introduced the basics of computer networking, including TCP/IP, routing, switching, and network security. I learned how to configure network devices, troubleshoot network issues, and understand key protocols like DNS, HTTP, and DHCP.",
+      "date": "May 2023"
+    },
+    {
+      "title": "Painless Vulnerability Management With Chainguard",
+      "issuer": "Chainguard",
+      "text": "This training focused on managing vulnerabilities in containerized environments and Kubernetes clusters. It covered techniques for securing software supply chains, vulnerability scanning, and using Chainguard tools for automated security audits and patching in cloud-native environments.",
+      "date": "Feb 2025"
+    }
+]
 }

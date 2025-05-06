@@ -3,8 +3,8 @@
     "experience": "Kokemus",
     "projects": "Projektit",
     "education": "Koulutus",
-    "title": "hei, agrin täällä.",
-    "subtitle": "rakennan asioita, rivi kerrallaan.",
+    "title": "Hei, Agrin täällä.",
+    "subtitle": "Rakennan asioita, rivi kerrallaan.",
     "aboutHeader": "/ minusta",
     "aboutDescription": "Opiskelen tällä hetkellä ohjelmisto insinööriksi Metropoliassa ja suoritan kandidaatin tutkintoa. Samalla työskentelen freelance-ohjelmistokehittäjänä ja toteutan verkkosivustoja sekä sovelluksia.\n\nTässä ovat tärkeimmät teknologiat, joiden parissa olen työskennellyt:",
     "experienceHeader": "/ kokemus",
@@ -59,10 +59,36 @@
         }
     ],
 
-    "educationHeader": "04. Koulutus",
-    "codeEducation": "Koodaustaidot",
-    "degreeHeader": "Tutkinnot",
+    "educationHeader": "/ koulutus",
+    "degreeHeader": "tutkinnot",
     "degreeTitleMetropolia": "Tieto- ja viestintätekniikan insinööri",
     "degreeTitleOmnia": "Sähkö- ja automaatio asentaja",
-    "soon": "Jatkuva"
+    "soon": "Jatkuva",
+    "certificateHeader": "sertifikaatit",
+"certificates": [
+    {
+      "title": "AWS Academy Introduction to Cloud Semester 1",
+      "issuer": "Amazon Academy",
+      "text": "Tämä kurssi käsitteli pilvipalveluiden perusteet, mukaan lukien AWS:n pilvialustan arkkitehtuuri, peruspilvipalvelut ja parhaat käytännöt pilvinfrastruktuurin hallintaan. Aiheina olivat mm. EC2, S3 ja VPC -asetukset sekä AWS:n tietoturva ja kustannusten hallinnan periaatteet.",
+      "date": "Huhtikuu 2023"
+    },
+    {
+      "title": "Cisco Networking Academy",
+      "issuer": "Ethical Hacker",
+      "text": "Tässä kurssissa sain käytännön kokemusta eettisistä hakkerointitekniikoista, kuten tunkeutumistesteistä, haavoittuvuuksien arvioinneista ja verkon tietoturvasta. Aiheina olivat mm. järjestelmän hyväksikäyttö, salakirjoitus ja hakkeroinnin eettiset näkökulmat.",
+      "date": "Huhtikuu 2025"
+    },
+    {
+      "title": "Cisco Networking Academy",
+      "issuer": "Networking Essentials",
+      "text": "Tämä kurssi esitteli tietokoneverkkojen perusteet, kuten TCP/IP, reitityksen, kytkennän ja verkon tietoturvan. Opin konfiguroimaan verkkolaitteita, vianetsimään verkko-ongelmia ja ymmärtämään tärkeitä protokollia kuten DNS, HTTP ja DHCP.",
+      "date": "Toukokuu 2023"
+    },
+    {
+      "title": "Painless Vulnerability Management With Chainguard",
+      "issuer": "Chainguard",
+      "text": "Tämä koulutus keskittyi haavoittuvuuksien hallintaan säilötyissä ympäristöissä ja Kubernetes-klustereissa. Kurssi käsitteli ohjelmistotoimitusketjujen turvaamista, haavoittuvuuksien skannausta ja Chainguard-työkalujen käyttöä automatisoidussa tietoturvatarkastuksessa.",
+      "date": "Helmikuu 2025"
+    }
+]
 }

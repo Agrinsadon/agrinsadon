@@ -1,146 +1,39 @@
 .page-content {
-  margin: auto;
-  max-width: 1000px;
-  min-height: 50vh;
-  padding: 100px 0 0 0;
-}
-
-.education-header {
-    text-align: left;
-    margin-left: 2rem;
-    margin-bottom: 20px;
-}
-
-.code-header {
-    text-align: center;
-    margin-bottom: 2rem;
-    margin-top: 7rem;
-}
-
-.code-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.icon-row {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 100%;
-}
-
-.icon-container {
-    position: relative;
-    margin: 20px;
-    padding: 20px;
-    text-align: center;
-    transition: transform 0.3s ease-out;
-    width: 70px;
-}
-
-.icon-container:hover {
-    transform: translateY(-15px);
-}
-
-.icon {
-    font-size: 2rem;
-}
-
-.icon-name {
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    opacity: 0;
-    transform: translateX(-48%);
-    transition: opacity 0.3s ease-out;
-    pointer-events: none;
-}
-
-.icon-container:hover .icon-name {
-    opacity: 1;
-}
-
-.degree-header {
+    margin: auto;
+    max-width: 1000px;
+    min-height: 50vh;
+    padding: 100px 0 0 0;
+  }
+  
+  .degree-header {
     text-align: center;
     margin-bottom: 2rem;
     margin-top: 5rem;
-}
-
-.degree-container {
+  }
+  
+  .degree-container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-}
-
-.degree-box {
+  }
+  
+  .degree-box {
     text-align: center;
     flex: 1 1 300px;
     margin-bottom: 7rem;
-}
-
-.degree-image-omnia {
+  }
+  
+  .degree-image-omnia {
     width: 30%;
     height: auto;
-}
-
-.degree-image-metropolia {
+  }
+  
+  .degree-image-metropolia {
     width: 33%;
     height: auto;
-}
-
-
-.degree-title-metropolia {
+  }
+  
+  .degree-title-metropolia {
     margin-top: 0.68rem;
-}
-
-
-
-@media screen and (max-width: 992px) {
-
-    .education-header {
-        margin-bottom: 0;
-    }
-
-    .code-header {
-        margin-top: 3rem;
-        margin-bottom: 1rem;
-    }
-
-    .icon-container {
-        width: 45px;
-    }
-
-    .icon-container:hover {
-        transform: translateY(-15px);
-    }
-
-    .degree-header {
-        margin-bottom: 1.5rem;
-        margin-top: 2rem;
-    }
-
-    .degree-box {
-        margin-bottom: 1.5rem;
-    }
-
-    .degree-image-omnia {
-        width: 45%;
-    }
-
-    .degree-image-metropolia {
-        width: 50%;
-    }
-
-    .degree-title-omnia {
-        margin-left: 1rem;
-        margin-right: 1rem;
-    }
-
-    .degree-title-metropolia {
-        margin-left: 1rem;
-        margin-right: 1rem;
-        margin-top: 0.6rem;
-    }
-
-}
+  }
+  
