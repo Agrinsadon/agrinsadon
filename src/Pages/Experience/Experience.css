@@ -66,3 +66,42 @@
     left: 0;
     position: absolute;
 }
+
+@media screen and (max-width: 600px) {
+  .experience-wrapper {
+    display: block;
+    margin-top: 0rem;
+  }
+
+  .experience-sidebar {
+    flex-direction: row;
+    overflow: auto;
+    margin-bottom: 1.5rem;
+  }
+  
+  .experience-tab {
+    min-width: fit-content;
+    padding: 0.5rem 0.5rem;
+    text-align: center;
+  }
+
+  .experience-tab.active {
+    border-bottom: #64ffda 2px solid;
+    border-right: none;
+  }
+  
+  .experience-details {
+    flex-grow: 1;
+    padding-left: 1rem;
+  }
+  
+  .box-date {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-secondary);
+    margin-top: 1rem;
+  }
+
+  .box-text {
+    padding-left: 1rem;
+  }
+}
