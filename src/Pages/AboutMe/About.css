@@ -27,7 +27,6 @@
     white-space: pre-wrap;
 }
 
-/* Grid for about code items */
 .about-code-grid {
     display: grid;
     grid-template-columns: repeat(2, 0.3fr);
@@ -50,14 +49,16 @@
     color: #64ffda;
 }
 
-@media screen and (max-width: 768px) {
-    .about-code-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
+@media screen and (max-width: 600px) {
+.image-container {
+    display: none;
 }
 
-@media screen and (max-width: 480px) {
-    .about-code-grid {
-        grid-template-columns: 1fr;
-    }
+.about-description {
+    margin: 00px 0 16px 0;
+}
+
+.about-code-grid {
+    grid-template-columns: repeat(2, 0.4fr);
+}
 }
