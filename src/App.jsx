@@ -28,9 +28,7 @@ const App = () => {
             </Element>
 
             <Element name="projects" className="Projects">
-                <ScrollAnimation>
                     <Project translations={translations} />
-                </ScrollAnimation>
             </Element>
 
             <Element name="education" className="Education">

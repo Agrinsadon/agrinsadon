@@ -1,6 +1,6 @@
 .experience-wrapper {
     display: flex;
-    color: #ccd6f6;
+    color: var(--color-text-primary);
     margin-top: 2rem;
   }
 
@@ -14,9 +14,9 @@
     padding: 0.7rem 0.9rem;
     background: none;
     border: none;
-    color: #8892b0;
+    color: var(--color-text-secondary);
     text-align: left;
-    font-size: 14px;
+    font-size: var(--font-size-sm);
     cursor: pointer;
     transition: color 0.2s ease;
   }
@@ -36,26 +36,26 @@
   }
   
   .box-date {
-    font-size: 14px;
-    color: #8892b0;
+    font-size: var(--font-size-sm);
+    color: var(--color-text-secondary);
     margin: 0.2rem;
   }
   
   .box-title {
-    font-size: 28px;
+    font-size: var(--font-size-lg);
     font-weight: bold;
     margin: 0;
   }
   
   .box-company {
-    font-size: 16px;
+    font-size: var(--font-size-base);
     margin-bottom: 1rem;
-    color: #64ffda;
+    color: var(--color-accent);
   }
   
   .box-text {
-    color: #8892b0;;
-    font-size: 16px;
+    color: var(--color-text-secondary);;
+    font-size: var(--font-size-base);
     padding-left: 1.5rem;
     margin-bottom: 0;
   }
@@ -66,4 +66,3 @@
     left: 0;
     position: absolute;
 }
-  

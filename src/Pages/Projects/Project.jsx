@@ -6,18 +6,21 @@ import { faFolder } from '@fortawesome/free-regular-svg-icons';
 import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
 import ImageCarousel from '../../Components/ImageCarousel';
 import './Project.css';
+import ScrollAnimation from "../../Components/ScrollAnimation";
 
 // eslint-disable-next-line react/prop-types
 const Project = ({ translations }) => {
     return (
         <div className="page-content">
             <h2 className="container-header">{translations.projectHeader}</h2>
+
             <ImageCarousel images={[
             "menstyle.png",
             "Ecoplug.png",
             "Tuutorikeskus.png",
             "Sahkodominus.png"
             ]} projects={translations.projectsCards} />
+               <ScrollAnimation>
             <div className="project-grid">
                 {translations.projectsCards.map((project, index) => (
                     <div key={index} className="project-card">
@@ -42,6 +45,7 @@ const Project = ({ translations }) => {
                     </div>
                 ))}
             </div>
+            </ScrollAnimation>
         </div>
     );
 };
