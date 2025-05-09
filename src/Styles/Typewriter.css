@@ -1,12 +1,11 @@
 .animated-title {
-    color: #ccd6f6;
+    color: var(--color-text-primary);
     white-space: nowrap;
-    overflow: hidden;
   }
   
   .blinking-cursor {
     animation: blink 1s step-start infinite;
-    color: #64ffda;
+    color: var(--color-accent);
     border-radius: 50px;
     margin-left: 2px;
   }
@@ -16,4 +15,3 @@
       opacity: 0;
     }
   }
-  

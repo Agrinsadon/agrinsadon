@@ -46,7 +46,7 @@
     content: "▹";
     position: absolute;
     left: 0;
-    color: #64ffda;
+    color: var(--color-accent);
 }
 
 @media screen and (max-width: 600px) {

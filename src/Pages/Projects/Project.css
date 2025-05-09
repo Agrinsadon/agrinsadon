@@ -1,3 +1,10 @@
+.page-content-project {
+    margin: auto;
+    max-width: 1000px;
+    min-height: 50vh;
+    padding: 100px 0 0 0;
+  }
+
 .project-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -67,6 +74,11 @@
 
 /* Responsive tweaks if you want */
 @media screen and (max-width: 600px) {
+
+.page-content-project {
+    margin: auto 1rem;
+    padding: 30px 0 0 0;
+}
 
 .project-card {
     min-height: 310px;

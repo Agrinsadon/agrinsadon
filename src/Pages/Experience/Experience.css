@@ -28,12 +28,12 @@
   }
   
   .experience-tab:hover {
-    color: #64ffda;
+    color: var(--color-accent);
   }
   
   .experience-tab.active {
-    color: #64ffda;
-    border-right: #64ffda 2px solid;
+    color: var(--color-accent);
+    border-right: var(--color-accent) 2px solid;
   }
   
   .experience-details {
@@ -67,7 +67,7 @@
   }
 
   .box-text::before {
-    color: #64ffda;
+    color: var(--color-accent);
     content: "▹ ";
     left: 0;
     position: absolute;
@@ -98,7 +98,7 @@
   
   .experience-details {
     padding-left: 0.5rem;
-    min-height: 25vh;
+    min-height: 32vh;
   }
 
   .box-date {

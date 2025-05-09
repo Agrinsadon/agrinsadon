@@ -11,7 +11,7 @@ import ScrollAnimation from "../../Components/ScrollAnimation";
 // eslint-disable-next-line react/prop-types
 const Project = ({ translations }) => {
     return (
-        <div className="page-content">
+        <div className="page-content-project">
             <h2 className="container-header">{translations.projectHeader}</h2>
 
             <ImageCarousel images={[

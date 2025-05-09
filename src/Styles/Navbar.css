@@ -10,7 +10,7 @@
     align-items: center;
     margin: 0 auto;
     padding: 0.5rem 0 0 0;
-    color: #ccd6f6;
+    color: var(--color-text-primary);
     z-index: 9998;
 }
 
@@ -43,12 +43,12 @@
     font-weight: 550;
     cursor: pointer;
     text-decoration: none;
-    color: #ccd6f6;
+    color: var(--color-text-primary);
     transition: color 0.3s ease;
 }
 
 .nav-links a:hover{
-    color: #64ffda;
+    color: var(--color-accent);
 }
 
 /* Language switcher basic styling */
