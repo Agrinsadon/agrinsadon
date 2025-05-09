@@ -8,6 +8,12 @@
     min-width: 220px;
     display: flex;
     flex-direction: column;
+    scrollbar-width: none; 
+    -ms-overflow-style: none;
+  }
+  
+  .experience-sidebar::-webkit-scrollbar {
+    display: none;
   }
   
   .experience-tab {
@@ -42,7 +48,7 @@
   }
   
   .box-title {
-    font-size: var(--font-size-lg);
+    font-size: var(--font-size-md);
     font-weight: bold;
     margin: 0;
   }
@@ -92,7 +98,7 @@
   
   .experience-details {
     padding-left: 0.5rem;
-    min-height: 40vh;
+    min-height: 25vh;
   }
 
   .box-date {

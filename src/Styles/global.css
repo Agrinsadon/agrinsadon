@@ -8,7 +8,7 @@
   --font-size-sm: 14px;
   --font-size-base: 16px;
   --font-size-md: 20px;
-  --font-size-lg: 28px;
+  --font-size-lg: 30px;
 }
 
 .page-content {
@@ -117,8 +117,8 @@ p {
 :root {
   --font-size-sm: 12px;
   --font-size-base: 14px;
-  --font-size-md: 18px;
-  --font-size-lg: 24px;
+  --font-size-md: 16px;
+  --font-size-lg: 22px;
 }
 
 .scroll-to-top {
@@ -147,7 +147,7 @@ h1 {
 }
 
 h2 {
-  font-size: 22px;
+  font-size: 30px;
   padding-top: 0.5rem;
   line-height: normal;
 }
