@@ -11,8 +11,8 @@
     "experienceBoxes": [
         {
             "date": "2023 - jatkuva",
-            "title": "Full-Stack -kehittäjä",
-            "company": "Agrin Sadon",
+            "title": "Ohjelmistokehittäjä",
+            "company": "Freelance",
             "text": "Työskentelen itsenäisesti verkkosivustojen ja -sovellusten parissa. Vastaan sekä käyttöliittymän että taustajärjestelmän toteutuksesta ja huolehdin projektien suunnittelusta, teknisestä toteutuksesta ja asiakasyhteistyöstä."
         },
         {
@@ -26,7 +26,7 @@
     "projectsCards": [
         {
             "name": "MenStyle",
-            "description": "JATKUVA PROJEKTI - \n \nVerkkosivusto parturiketjulle Suomessa, jolla on 9 toimipistettä ympäri maata.",
+            "description": "Verkkosivusto parturiketjulle Suomessa, jolla on 9 toimipistettä ympäri maata.",
             "techstack": "React, Next.js, TypeScript, Node.js, AWS, CSS",
             "links": [
                 { "href": "https://menstyle.vercel.app/", "icon": "faExternalLinkAlt" }
