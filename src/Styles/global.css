@@ -126,7 +126,7 @@ p {
 }
 
 .page-content {
-  margin: auto 1rem;
+  margin: auto 0;
   padding: 75px 0 0 0;
 }
 .container-header {
@@ -155,4 +155,26 @@ h2 {
 p {
   font-size: 14px;
 }
+}
+
+@media (max-width: 1150px) {
+  .page-content{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .LandingPage {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .screen {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .page-content-project {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
 }
