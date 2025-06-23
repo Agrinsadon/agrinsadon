@@ -32,7 +32,7 @@ const About = ({translations}) => {
                     </div>
 
                     <div className="image-container">
-                        <img src={`/Profile-transformed.jpeg`} alt="Profile" className="profile-image" />
+                        <img src={`/agrin-face.png`} alt="Profile" className="profile-image" />
                     </div>
                 </div>
             </div>
