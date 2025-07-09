@@ -56,6 +56,14 @@
             "links": [
                 { "href": "https://www.sahkodominus.com/", "icon": "faExternalLinkAlt" }
             ]
+        },
+        {
+            "name": "Stadionin Hallinta",
+            "description": "Simulaatio stadionin sisäänpääsyn jonotuksesta normaaleille ja VIP-asiakkaille.",
+            "techstack": "Java, Javafx",
+            "links": [
+                { "href": "https://github.com/MattiaTraple/Stadium-Menagment/tree/main", "icon": "faGithub" }
+            ]
         }
     ],
 

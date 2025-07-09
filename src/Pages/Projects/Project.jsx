@@ -18,7 +18,8 @@ const Project = ({ translations }) => {
             "menstyle.png",
             "Ecoplug.png",
             "Tuutorikeskus.png",
-            "Sahkodominus.png"
+            "Sahkodominus.png",
+            "simulator.png"
             ]} projects={translations.projectsCards} />
                <ScrollAnimation>
             <div className="project-grid">

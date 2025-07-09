@@ -56,6 +56,14 @@
             "links": [
                 { "href": "https://www.sahkodominus.com/", "icon": "faExternalLinkAlt" }
             ]
+        },
+        {
+            "name": "Stadium Management",
+            "description": "Simulation of stadium entrance managing queues for normal and VIP ticket holders.",
+            "techstack": "Java, Javafx",
+            "links": [
+                { "href": "https://github.com/MattiaTraple/Stadium-Menagment/tree/main", "icon": "faGithub" }
+            ]
         }
     ],
 
