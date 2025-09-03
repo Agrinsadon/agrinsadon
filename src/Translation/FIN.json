@@ -25,11 +25,19 @@
     "projectHeader": "/ projektit",
     "projectsCards": [
         {
+            "name": "7auto (jatkuu)",
+            "description": "Verkkosivusto Autopesu- ja Autohuollonpalveluille Helsingissä.",
+            "techstack": "React, Next.js, TypeScript, Node.js, Google Calendar, CSS",
+            "links": [
+                { "href": "https://7auto.vercel.app", "icon": "faExternalLinkAlt" }
+            ]
+        },
+        {
             "name": "MenStyle",
             "description": "Verkkosivusto parturiketjulle Suomessa, jolla on 9 toimipistettä ympäri maata.",
             "techstack": "React, Next.js, TypeScript, Node.js, AWS, CSS",
             "links": [
-                { "href": "https://menstyle.vercel.app/", "icon": "faExternalLinkAlt" }
+                { "href": "https://menstyle.fi", "icon": "faExternalLinkAlt" }
             ]
         },
         {

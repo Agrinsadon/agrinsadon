@@ -25,6 +25,14 @@
     "projectHeader": "/ projects",
     "projectsCards": [
         {
+            "name": "7auto (Ongoing)",
+            "description": "A website for Car Wash and Car Maintenance services in Helsinki.",
+            "techstack": "React, Next.js, TypeScript, Node.js, Google Calendar, CSS",
+            "links": [
+                { "href": "https://7auto.vercel.app", "icon": "faExternalLinkAlt" }
+            ]
+        },
+        {
             "name": "MenStyle",
             "description": "A website for a barber shop chain in Finland with 9 locations across the country.",
             "techstack": "React, Next.js, TypeScript, Node.js, AWS, CSS",

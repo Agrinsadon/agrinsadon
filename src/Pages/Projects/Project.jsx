@@ -15,6 +15,7 @@ const Project = ({ translations }) => {
             <h2 className="container-header">{translations.projectHeader}</h2>
 
             <ImageCarousel images={[
+            "7autoo.png",
             "menstyle.png",
             "Ecoplug.png",
             "Tuutorikeskus.png",
