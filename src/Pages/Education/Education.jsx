@@ -39,7 +39,7 @@ const Education = ({ translations }) => {
                     <img src="./Metropolialogo.png" alt="Degree Image" className="degree-image-metropolia" />
                     <h3 className="degree-title-metropolia">{translations.degreeTitleMetropolia}</h3>
                     <p className="degree-text">{translations.gradeM}</p>
-                    <p className="degree-text">2022 - {translations.soon}</p>
+                    <p className="degree-text">2022 - 2025</p>
                 </div>
                 <div className="degree-box">
                     <img src="./Omnialogo.png" alt="Degree Image" className="degree-image-omnia" />
