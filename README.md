@@ -1,6 +1,6 @@
 ### Hi there! <img src="https://emojis.slackmojis.com/emojis/images/1536351075/4594/blob-wave.gif" width="25"/>
 
-I'm [**Agrin**](https://www.agrinsadon.fi/), a software engineer student from Espoo, Finland.
+I'm [**Agrin**](https://www.agrinsadon.fi/), a software engineer from Espoo, Finland.
 
 I am currently working as a freelance software developer, also engaging in pet projects using AI. 
 
