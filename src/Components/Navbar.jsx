@@ -75,22 +75,6 @@ const Navbar = ({ onTranslationsChange }) => {
                         </ScrollLink>
 
                         <ScrollLink
-                            to="experience"
-                            smooth={true}
-                            duration={500}
-                            onClick={(e) => {
-                                handleLinkClick();
-                                e.currentTarget.blur(); // removes focus state after click
-                            }}
-                            className={activeSection === 'experience' ? 'active' : ''}
-                            spy={true}
-                            onSetActive={handleSetActive}
-                            offset={screenWidth < 768 ? -80 : -50}
-                        >
-                            {translations.experience}
-                        </ScrollLink>
-
-                        <ScrollLink
                             to="projects"
                             smooth={true}
                             duration={500}

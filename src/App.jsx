@@ -23,10 +23,6 @@ const App = () => {
                 </ScrollAnimation>
             </Element>
 
-            <Element name="experience" className="Experience">
-                    <Experience translations={translations} />
-            </Element>
-
             <Element name="projects" className="Projects">
                     <Project translations={translations} />
             </Element>

@@ -24,8 +24,24 @@
     ],
     "projectHeader": "/ projects",
     "projectsCards": [
+                {
+            "name": "AKA Savers",
+            "description": "A website for a Finnish business cost-reduction service that helps companies save money through competitive bidding on contracts such as insurance, electricity, and subscriptions.",
+            "techstack": "React, TypeScript, Next.js, CSS",
+            "links": [
+                { "href": "https://aka-savers.vercel.app", "icon": "faExternalLinkAlt" }
+            ]
+        },
         {
-            "name": "7auto (Ongoing)",
+            "name": "New Look Hair 6",
+            "description": "A website for a barbershop in Helsinki, Finland, featuring service listings, pricing, and online booking via Google Calendar.",
+            "techstack": "React, TypeScript, Next.js, Google Calendar, CSS",
+            "links": [
+                { "href": "https://newhairlook6.vercel.app", "icon": "faExternalLinkAlt" }
+            ]
+        },
+        {
+            "name": "7auto",
             "description": "A website for Car Wash and Car Maintenance services in Helsinki.",
             "techstack": "React, Next.js, TypeScript, Node.js, Google Calendar, CSS",
             "links": [
@@ -50,27 +66,11 @@
             ]
         },
         {
-            "name": "Tuutorikeskus",
-            "description": "A website that provides guidance and support to students for their medical entrance exams.",
-            "techstack": "React, Javascript, Node.js, CSS",
-            "links": [
-                { "href": "https://www.tuutorikeskus.com/", "icon": "faExternalLinkAlt" }
-            ]
-        },
-        {
             "name": "Sähkö Dominus",
             "description": "A website made for a client offering professional electronic installation and repair services.",
             "techstack": "React, Javascript, Node.js, CSS",
             "links": [
                 { "href": "https://www.sahkodominus.com/", "icon": "faExternalLinkAlt" }
-            ]
-        },
-        {
-            "name": "Stadium Management",
-            "description": "Simulation of stadium entrance managing queues for normal and VIP ticket holders.",
-            "techstack": "Java, Javafx",
-            "links": [
-                { "href": "https://github.com/MattiaTraple/Stadium-Menagment/tree/main", "icon": "faGithub" }
             ]
         }
     ],

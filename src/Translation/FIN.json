@@ -24,8 +24,24 @@
     ],
     "projectHeader": "/ projektit",
     "projectsCards": [
+                {
+            "name": "AKA Savers",
+            "description": "Verkkosivusto suomalaiselle kustannussäästöpalvelulle, joka auttaa yrityksiä säästämään kilpailuttamalla sopimuksia kuten vakuutuksia, sähköä ja tilauksia.",
+            "techstack": "React, TypeScript, Next.js, CSS",
+            "links": [
+                { "href": "https://aka-savers.vercel.app", "icon": "faExternalLinkAlt" }
+            ]
+        },
         {
-            "name": "7auto (jatkuu)",
+            "name": "New Look Hair 6",
+            "description": "Verkkosivusto helsinkiläiselle parturille, johon sisältyvät palvelulista, hinnoittelu ja Google Kalenterin kautta tapahtuva varausjärjestelmä.",
+            "techstack": "React, TypeScript, Next.js, Google Calendar, CSS",
+            "links": [
+                { "href": "https://newhairlook6.vercel.app", "icon": "faExternalLinkAlt" }
+            ]
+        },
+        {
+            "name": "7auto",
             "description": "Verkkosivusto Autopesu- ja Autohuollonpalveluille Helsingissä.",
             "techstack": "React, Next.js, TypeScript, Node.js, Google Calendar, CSS",
             "links": [
@@ -50,27 +66,11 @@
             ]
         },
         {
-            "name": "Tuutorikeskus",
-            "description": "Verkkosivusto joka opastaa ja tukee opiskelijoita valmistautumaan lääketieteen pääsykokeisiin Romaniassa.",
-            "techstack": "React, Javascript, Node.js, CSS",
-            "links": [
-                { "href": "https://www.tuutorikeskus.com/", "icon": "faExternalLinkAlt" }
-            ]
-        },
-        {
             "name": "Sähkö Dominus",
             "description": "Verkkosivusto, joka tarjoaa ammattimaisia sähköasennus- ja korjauspalveluja.",
             "techstack": "React, Javascript, Node.js, CSS",
             "links": [
                 { "href": "https://www.sahkodominus.com/", "icon": "faExternalLinkAlt" }
-            ]
-        },
-        {
-            "name": "Stadionin Hallinta",
-            "description": "Simulaatio stadionin sisäänpääsyn jonotuksesta normaaleille ja VIP-asiakkaille.",
-            "techstack": "Java, Javafx",
-            "links": [
-                { "href": "https://github.com/MattiaTraple/Stadium-Menagment/tree/main", "icon": "faGithub" }
             ]
         }
     ],
