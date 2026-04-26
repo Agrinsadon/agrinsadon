@@ -24,6 +24,14 @@
     ],
     "projectHeader": "/ projektit",
     "projectsCards": [
+        {
+            "name": "Wding",
+            "description": "Palvelu jossa rakennetaan pariskunnille yksityisen ja kauniin häävierassivuston pareille.",
+            "techstack": "React, Typescript, Node.js, Google Sheets, Cloudinary, CSS",
+            "links": [
+                { "href": "https://www.wding.fi/", "icon": "faExternalLinkAlt" }
+            ]
+        },
                 {
             "name": "AKA Savers",
             "description": "Verkkosivusto suomalaiselle kustannussäästöpalvelulle, joka auttaa yrityksiä säästämään kilpailuttamalla sopimuksia kuten vakuutuksia, sähköä ja tilauksia.",

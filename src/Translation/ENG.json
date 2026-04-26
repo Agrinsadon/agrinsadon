@@ -24,6 +24,14 @@
     ],
     "projectHeader": "/ projects",
     "projectsCards": [
+             {
+            "name": "Wding",
+            "description": "A service that builds a private and beautiful wedding guest website for couples.",
+            "techstack": "React, Typescript, Node.js, Google Sheets, Cloudinary, CSS",
+            "links": [
+                { "href": "https://www.wding.fi/", "icon": "faExternalLinkAlt" }
+            ]
+        },
                 {
             "name": "AKA Savers",
             "description": "A website for a Finnish business cost-reduction service that helps companies save money through competitive bidding on contracts such as insurance, electricity, and subscriptions.",
@@ -63,14 +71,6 @@
             "links": [
                 { "href": "https://github.com/MuathOthman/EcoPlugMobileApp", "icon": "faGithub" },
                 { "href": "https://youtu.be/bBMAk98vEuk?si=IXvr0nPgAYl10m2b", "icon": "faYoutube" }
-            ]
-        },
-        {
-            "name": "Sähkö Dominus",
-            "description": "A website made for a client offering professional electronic installation and repair services.",
-            "techstack": "React, Javascript, Node.js, CSS",
-            "links": [
-                { "href": "https://www.sahkodominus.com/", "icon": "faExternalLinkAlt" }
             ]
         }
     ],
