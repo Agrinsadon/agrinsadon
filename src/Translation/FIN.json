@@ -72,14 +72,6 @@
                 { "href": "https://github.com/MuathOthman/EcoPlugMobileApp", "icon": "faGithub" },
                 { "href": "https://youtu.be/bBMAk98vEuk?si=IXvr0nPgAYl10m2b", "icon": "faYoutube" }
             ]
-        },
-        {
-            "name": "Sähkö Dominus",
-            "description": "Verkkosivusto, joka tarjoaa ammattimaisia sähköasennus- ja korjauspalveluja.",
-            "techstack": "React, Javascript, Node.js, CSS",
-            "links": [
-                { "href": "https://www.sahkodominus.com/", "icon": "faExternalLinkAlt" }
-            ]
         }
     ],
 
