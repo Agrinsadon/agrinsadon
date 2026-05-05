@@ -45,7 +45,7 @@
             "description": "Verkkosivusto helsinkiläiselle parturille, johon sisältyvät palvelulista, hinnoittelu ja Google Kalenterin kautta tapahtuva varausjärjestelmä.",
             "techstack": "React, TypeScript, Next.js, Google Calendar, CSS",
             "links": [
-                { "href": "https://newhairlook6.vercel.app", "icon": "faExternalLinkAlt" }
+                { "href": "https://www.newlookhair6.fi/", "icon": "faExternalLinkAlt" }
             ]
         },
         {

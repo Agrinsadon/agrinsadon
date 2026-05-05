@@ -45,7 +45,7 @@
             "description": "A website for a barbershop in Helsinki, Finland, featuring service listings, pricing, and online booking via Google Calendar.",
             "techstack": "React, TypeScript, Next.js, Google Calendar, CSS",
             "links": [
-                { "href": "https://newhairlook6.vercel.app", "icon": "faExternalLinkAlt" }
+                { "href": "https://www.newlookhair6.fi/", "icon": "faExternalLinkAlt" }
             ]
         },
         {
