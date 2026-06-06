@@ -24,6 +24,16 @@
     ],
     "projectHeader": "/ projects",
     "projectsCards": [
+        {
+            "name": "Vakuutus AI",
+            "description": "Artificial intelligence-based damage notification automation system, categorizes damage, estimates compensation amount and sends automatic alerts for urgent cases.",
+            "techstack": "Next.js, TypeScript, Python, OpenAI, Azure AI Language, PostgreSQL, Gmail SMTP",
+            "links": [
+                { "href": "https://ai-vakuutus.vercel.app/", "icon": "faExternalLinkAlt" },
+                { "href": "https://github.com/Agrinsadon/ai-vakuutus", "icon": "faGithub" }
+
+            ]
+        },
              {
             "name": "Wding",
             "description": "A service that builds a private and beautiful wedding guest website for couples.",
