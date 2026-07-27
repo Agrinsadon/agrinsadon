@@ -6,7 +6,7 @@
     "title": "Hi, Agrin here.",
     "subtitle": "I create stuff, one line at a time.",
     "aboutHeader": "/ about Me",
-    "aboutDescription": "I am a recent Software Engineering graduate at Metropolia. I work as a freelance software developer, building websites and applications.\n\nHere are the most important technologies I have worked with:",
+    "aboutDescription": "I am a Software Engineer from Metropolia. I work as a freelance software developer, building websites and applications.\n\nHere are the most important technologies I have worked with:",
     "experienceHeader": "/ experience",
     "experienceBoxes": [
         {
@@ -27,7 +27,7 @@
         {
             "name": "Vakuutus AI",
             "description": "Artificial intelligence-based damage notification automation system, categorizes damage, estimates compensation amount and sends automatic alerts for urgent cases.",
-            "techstack": "Next.js, TypeScript, Python, OpenAI, Azure AI Language, PostgreSQL, Gmail SMTP",
+            "techstack": "Next.js, TypeScript, Python, OpenAI, Azure AI Language, PostgreSQL, Gmail SMTP, Docker, Jenkins, AWS",
             "links": [
                 { "href": "https://ai-vakuutus.vercel.app/", "icon": "faExternalLinkAlt" },
                 { "href": "https://github.com/Agrinsadon/ai-vakuutus", "icon": "faGithub" }
