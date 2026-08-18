@@ -25,13 +25,11 @@
     "projectHeader": "/ projects",
     "projectsCards": [
         {
-            "name": "Vakuutus AI",
-            "description": "Artificial intelligence-based damage notification automation system, categorizes damage, estimates compensation amount and sends automatic alerts for urgent cases.",
-            "techstack": "Next.js, TypeScript, Python, OpenAI, Azure AI Language, PostgreSQL, Gmail SMTP, Docker, Jenkins, AWS",
+            "name": "Campaign Pass",
+            "description": "An e-commerce system built for selling campaign passes and gift cards, automatically generating QR-coded PDF passes, processing payments (Paytrail sandbox / test mode) and sending receipts and confirmations to customers via email.",
+            "techstack": "Next.js, TypeScript, Supabase, PostgreSQL, Paytrail, Apple Wallet, Resend, pdf-lib, Vercel",
             "links": [
-                { "href": "https://ai-vakuutus.vercel.app/", "icon": "faExternalLinkAlt" },
-                { "href": "https://github.com/Agrinsadon/ai-vakuutus", "icon": "faGithub" }
-
+                { "href": "https://campaign-pass.vercel.app/", "icon": "faExternalLinkAlt" }
             ]
         },
              {

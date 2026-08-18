@@ -25,13 +25,11 @@
     "projectHeader": "/ projektit",
     "projectsCards": [
         {
-            "name": "Vakuutus AI",
-            "description": "Tekoälypohjainen vahinkoilmoitusten automaatiojärjestelmä, luokittelee vahingon, joka arvioi korvaussumman ja lähettää automaattisen hälytyksen kiireellisistä tapauksista.",
-            "techstack": "Next.js, TypeScript, Python, OpenAI, Azure AI Language, PostgreSQL, Gmail SMTP, Docker, Jenkins, AWS",
+            "name": "Campaign Pass",
+            "description": "Kampanjapassien ja lahjakorttien myyntiin rakennettu verkkokauppajärjestelmä, joka generoi automaattisesti QR-koodilliset PDF-passit, käsittelee maksut (Paytrail testitilassa / sandbox) sekä lähettää kuitit ja vahvistukset asiakkaille sähköpostitse.",
+            "techstack": "Next.js, TypeScript, Supabase, PostgreSQL, Paytrail, Apple Wallet, Resend, pdf-lib, Vercel",
             "links": [
-                { "href": "https://ai-vakuutus.vercel.app/", "icon": "faExternalLinkAlt" },
-                { "href": "https://github.com/Agrinsadon/ai-vakuutus", "icon": "faGithub" }
-
+                { "href": "https://campaign-pass.vercel.app/", "icon": "faExternalLinkAlt" }
             ]
         },
         {
