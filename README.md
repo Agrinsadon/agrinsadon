@@ -7,4 +7,4 @@ I am currently working as a freelance software developer, also engaging in pet p
 In my free time, I keep up with emerging technologies and enjoy playing video games.
 
 #### Let's connect!
-[<img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-%230E76A8.svg?&style=for-the-badge&logo=LinkedIn&logoColor=white" />](https://www.linkedin.com/in/agrin-from-finland/)
+[<img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-%230E76A8.svg?&style=for-the-badge&logo=LinkedIn&logoColor=white" />](https://www.linkedin.com/in/agrinsadon/)
