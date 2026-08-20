@@ -25,6 +25,14 @@
     "projectHeader": "/ projektit",
     "projectsCards": [
         {
+            "name": "CasePilot",
+            "description": "Monimutkaiseen tapauskäsittelyyn rakennettu tekoälyagentti, joka analysoi esimerkiksi vakuutuskorvaustapauksia kuvien, PDF-dokumenttien ja käyttäjän antamien tietojen perusteella. Agentti arvioi näytön ja laskee luottamuspistemäärän, pyytää tarvittaessa lisätietoja sekä varmistaa päätökset koodiin määritellyillä säännöillä ennen lopullista arviota.",
+            "techstack": "Next.js, FastAPI, Python, OpenAI Responses API, Pydantic, PostgreSQL",
+            "links": [
+                { "href": "https://casepilot-ecru.vercel.app/", "icon": "faExternalLinkAlt" }
+            ]
+        },
+        {
             "name": "Campaign Pass",
             "description": "Kampanjapassien ja lahjakorttien myyntiin rakennettu verkkokauppajärjestelmä, joka generoi automaattisesti QR-koodilliset PDF-passit, käsittelee maksut (Paytrail testitilassa / sandbox) sekä lähettää kuitit ja vahvistukset asiakkaille sähköpostitse.",
             "techstack": "Next.js, TypeScript, Supabase, PostgreSQL, Paytrail, Apple Wallet, Resend, pdf-lib, Vercel",

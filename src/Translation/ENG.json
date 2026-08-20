@@ -25,6 +25,14 @@
     "projectHeader": "/ projects",
     "projectsCards": [
         {
+            "name": "CasePilot",
+            "description": "An AI agent built for complex case handling, such as insurance claims. It analyzes images, PDF documents, and user-provided information, evaluates the available evidence, and calculates a confidence score instead of simply guessing. When information is missing, the agent asks follow-up questions, while predefined rules and confidence thresholds validate the AI’s recommendations before a final assessment is made.",
+            "techstack": "Next.js, FastAPI, Python, OpenAI Responses API, Pydantic, PostgreSQL",
+            "links": [
+                { "href": "https://casepilot-ecru.vercel.app/", "icon": "faExternalLinkAlt" }
+            ]
+        },
+        {
             "name": "Campaign Pass",
             "description": "An e-commerce system built for selling campaign passes and gift cards, automatically generating QR-coded PDF passes, processing payments (Paytrail sandbox / test mode) and sending receipts and confirmations to customers via email.",
             "techstack": "Next.js, TypeScript, Supabase, PostgreSQL, Paytrail, Apple Wallet, Resend, pdf-lib, Vercel",
